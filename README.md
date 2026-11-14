@@ -19,10 +19,10 @@ You can use any specialist independently or ask the Chief Research Analyst (Inte
 
 Full research includes matching Markdown and Word reports by default. Peak sales, formal DCF valuations, and multi-company scoring include a recalculable Excel workbook. Reports default to the language of your question, with Chinese or English available on request.
 
-- [Skill directory and AI entry point](skills/drugalpha-research-team)
+- [Skill directory](skills/drugalpha-research-team)
 - [English installation guide](skills/drugalpha-research-team/README.en.md)
 - [Chinese installation guide](skills/drugalpha-research-team/README.md)
-- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.60/drugalpha-research-team-v0.2.60-public.zip)
+- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.61/drugalpha-research-team-v0.2.61-public.zip)
 
 To install with an AI assistant, send it the Skill directory URL and ask it to install the entire directory using your client's supported method. For WorkBuddy or clients that import a ZIP, download the release asset and follow your client's import instructions.
 

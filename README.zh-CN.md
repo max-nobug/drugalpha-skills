@@ -19,10 +19,10 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 完整研究默认交付同版 Markdown 和 Word。销售峰值、正式 DCF 估值和多公司评分附可复算 Excel。报告默认使用提问语言，也可指定中文或英文。
 
-- [Skill 目录和 AI 执行入口](skills/drugalpha-research-team)
+- [Skill 目录](skills/drugalpha-research-team)
 - [中文安装说明](skills/drugalpha-research-team/README.md)
 - [英文安装说明](skills/drugalpha-research-team/README.en.md)
-- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.60/drugalpha-research-team-v0.2.60-public.zip)
+- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.61/drugalpha-research-team-v0.2.61-public.zip)
 
 把下面的话发给你的 AI，也可以下载 Release 附件后，按 WorkBuddy 等客户端的说明导入。
 

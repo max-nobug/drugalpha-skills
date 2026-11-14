@@ -7,11 +7,11 @@ description: 创新药研究入口，服务投资研究、BD决策、医学事�
 
 先识别用户要做的判断及所需交付。用户点名研究员或模式时遵从；其余根据下表示例的意图选取，结合上下文处理简称和追问。用一句话说明本次选择后直接执行。下表链接均在本包内。六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。表中列出各模式的重点及需要追加的工作簿。首席研究员（综合决策）负责两个子模式，按研究对象选择。
 
-| 研究员 | 用户问题示例 | 执行手册 | 报告模板 | 调用指引 | 研究重点与配套工作簿 |
+| 研究员 | 用户问题示例 | 执行手册 | 模板 | 调用指引 | 研究重点与配套工作簿 |
 | --- | --- | --- | --- | --- | --- |
 | 临床数据对比研究员 | 这三款RET抑制剂的一线数据谁更好？ | [流程](references/clinical-workflow.md) | [报告模板](references/clinical-report-template.md) | [数据](references/clinical-mcp.md) | 匹配标准治疗、关键亚组、核心终点与安全性 |
 | 竞争格局分析研究员 | 同一适应症谁领先，哪些产品真正争夺同一批患者？ | [流程](references/competition-workflow.md) | [报告模板](references/competition-report-template.md) | [数据](references/competition-peak-mcp.md) | 研发梯队、真实替代方案、切换条件 |
-| 销售峰值测算研究员 | 这款药在中国一线治疗能卖多少钱？ | [流程](references/peak-workflow.md) | [报告模板](references/peak-report-template.md) | [数据](references/competition-peak-mcp.md) | 分地区逐年终端销售、峰值及可复算 Excel |
+| 销售峰值测算研究员 | 这款药在中国一线治疗能卖多少钱？ | [流程](references/peak-workflow.md) | [报告模板](references/peak-report-template.md) · [Excel 模板](assets/peak-sales-template.xlsx) | [数据](references/competition-peak-mcp.md) | 分地区逐年终端销售、峰值及可复算 Excel |
 | 催化剂判断研究员 | 未来半年哪些读出可能改变观点？ | [流程](references/catalyst-workflow.md) | [报告模板](references/catalyst-report-template.md) | [数据](references/catalyst-mcp.md) | 核心产品认定、按事件优先级排序与结果情景 |
 | 财务与估值分析研究员 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [流程](references/financial-workflow.md) | [财务分析模板](references/financial-report-template.md) · [估值分析模板](references/valuation-report-template.md) | [数据](references/financial-mcp.md) | 现金覆盖、融资稀释与估值成立条件。正式公司估值附可复算 DCF Excel |
 | 首席研究员（综合决策） · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-single-report-template.md) | [数据](references/data-access.md) | 关键催化剂、核心资产、独立估值及市场隐含预期，末节为风险提示。正式研判附可复算 DCF Excel |
