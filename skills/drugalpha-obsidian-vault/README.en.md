@@ -6,6 +6,12 @@ Build a local Obsidian vault from company filings, research reports, meeting not
 
 ## Install the skill
 
+[Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
+
+Send the installation prompt below to your AI assistant. You can also download the Release ZIP and import it if your client supports ZIP imports, or extract it and install the whole directory in your client’s Skill location.
+
+> Install the DrugAlpha Biopharma Obsidian Vault Skill from https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault. Install the entire Skill directory using the method supported by my client. If I need drug matching or pipeline queries, verify my DrugAlpha MCP connection with a read-only query.
+
 Keep the complete `drugalpha-obsidian-vault/` folder, including `SKILL.md`, `references/`, `assets/`, and `agents/`. Use a local client with access to your source files and vault. Building and maintaining the vault requires write access. Research queries need read access.
 
 ### Codex
@@ -20,7 +26,11 @@ Keep the complete `drugalpha-obsidian-vault/` folder, including `SKILL.md`, `ref
 2. In the desktop app, open **Experts, Skills and Connectors → Skills → Add Skill → Upload Skill** and select the ZIP. In the Chinese interface, the labels are **专家·技能·连接器 → 技能 → 添加技能 → 上传技能**. Check the installed skills list to confirm it is enabled. [WorkBuddy skill documentation](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)
 3. Choose a local working folder with access to your source files and vault. Ask WorkBuddy to use `drugalpha-obsidian-vault`, then paste one of the example prompts below.
 
-To match canonical drug names and aliases or retrieve published pipeline records, connect and authorize DrugAlpha MCP. Basic archiving and read-only vault queries work with local files. [DrugAlpha MCP setup guide (Chinese)](references/drugalpha-mcp.md)
+### Other clients
+
+Use your client’s Skill import settings or documented Skill directory. For a client with local file access, you can also place the complete directory in the workspace and ask the assistant to read `SKILL.md`. The client needs access to the files and vault involved in your task.
+
+The package includes both installation guides, workflow references and vault templates. Local archiving and read-only queries use your authorized local files. For drug matching or published pipeline queries, connect DrugAlpha MCP with your own account. [Official DrugAlpha MCP setup](https://github.com/max-nobug/drugalpha-mcp)
 
 ## Set up your first vault
 

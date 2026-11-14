@@ -24,6 +24,10 @@
 - [Skill 目录](skills/drugalpha-obsidian-vault)
 - [中文安装说明](skills/drugalpha-obsidian-vault/README.md)
 - [英文安装说明](skills/drugalpha-obsidian-vault/README.en.md)
-- [下载 WorkBuddy ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.0/drugalpha-obsidian-vault-workbuddy.zip)
+- [下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
 
-> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault 安装 DrugAlpha 创新药 Obsidian 知识库 Skill，按我使用的客户端操作。
+把下面的话发给你的 AI。也可以下载 Release 附件，按客户端说明导入 ZIP，或解压后安装整个 Skill 目录。
+
+> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault 安装 DrugAlpha 创新药 Obsidian 知识库 Skill。请按我的客户端安装整个 Skill 目录。如果我需要匹配药物或查询管线，请用一次只读查询验证 DrugAlpha MCP 连接。
+
+技能包包含中英文安装说明、执行手册和知识库模板。本地归档和只读查询使用你授权的本地文件。需要匹配药物或查询已发布管线时，使用你自己的 DrugAlpha 账号接入 MCP。[DrugAlpha MCP 官方连接说明](https://github.com/max-nobug/drugalpha-mcp)

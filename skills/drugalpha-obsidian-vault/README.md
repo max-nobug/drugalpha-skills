@@ -6,6 +6,12 @@
 
 ## 安装 Skill
 
+[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
+
+把下面的话发给你的 AI。也可以下载 Release 附件，按客户端说明导入 ZIP，或解压后安装整个 Skill 目录。
+
+> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault 安装 DrugAlpha 创新药 Obsidian 知识库 Skill。请按我的客户端安装整个 Skill 目录。如果我需要匹配药物或查询管线，请用一次只读查询验证 DrugAlpha MCP 连接。
+
 分享或安装时，保留整个 `drugalpha-obsidian-vault/` 文件夹，其中包含 `SKILL.md`、`references/`、`assets/` 和 `agents/`。请在能访问资料原件和目标 Vault 的本地客户端使用。建库和维护需要目标目录的写入权限，日常查询只需要读取权限。
 
 ### Codex
@@ -20,7 +26,11 @@
 2. 在 WorkBuddy 桌面端打开「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，选择本地 ZIP。导入后在「已安装」确认该技能已启用。 [WorkBuddy 官方技能文档](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)
 3. 在本地任务中选择能访问原件和 Vault 的工作文件夹，在对话里明确说「使用 DrugAlpha创新药Obsidian知识库 Skill」，然后附上下面的示例指令。
 
-如需用 DrugAlpha 对齐标准药名、别名和已发布管线，按客户端配置 DrugAlpha MCP 并在浏览器完成授权。基础归档和本地只读查询可以直接使用库内资料。 [DrugAlpha MCP 连接指引](references/drugalpha-mcp.md)
+### 其他客户端
+
+按客户端的 Skill 导入入口或技能目录安装。支持本地文件读取的客户端也可以把完整目录放进工作区，并请 AI 读取 `SKILL.md`。客户端需要能访问本次任务涉及的原件和 Vault。
+
+技能包包含中英文安装说明、执行手册和知识库模板。本地归档和只读查询使用你授权的本地文件。需要匹配药物或查询已发布管线时，使用你自己的 DrugAlpha 账号接入 MCP。[DrugAlpha MCP 官方连接说明](https://github.com/max-nobug/drugalpha-mcp)
 
 ## 首次建库
 

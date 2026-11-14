@@ -24,6 +24,10 @@ Build and maintain a local research vault, archive filings and models, and run r
 - [Skill directory](skills/drugalpha-obsidian-vault)
 - [English installation guide](skills/drugalpha-obsidian-vault/README.en.md)
 - [Chinese installation guide](skills/drugalpha-obsidian-vault/README.md)
-- [Download the WorkBuddy ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.0/drugalpha-obsidian-vault-workbuddy.zip)
+- [Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
 
-> Install the DrugAlpha Biopharma Obsidian Vault Skill from https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault. Follow the installation guide for my client.
+Send the installation prompt below to your AI assistant. You can also download the Release ZIP and import it if your client supports ZIP imports, or extract it and install the whole directory in your client’s Skill location.
+
+> Install the DrugAlpha Biopharma Obsidian Vault Skill from https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault. Install the entire Skill directory using the method supported by my client. If I need drug matching or pipeline queries, verify my DrugAlpha MCP connection with a read-only query.
+
+The package includes both installation guides, workflow references and vault templates. Local archiving and read-only queries use your authorized local files. For drug matching or published pipeline queries, connect DrugAlpha MCP with your own account. [Official DrugAlpha MCP setup](https://github.com/max-nobug/drugalpha-mcp)
