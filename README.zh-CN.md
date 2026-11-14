@@ -9,10 +9,21 @@
 - [Skill 目录和 AI 执行入口](skills/drugalpha-research-team)
 - [中文安装说明](skills/drugalpha-research-team/README.md)
 - [英文安装说明](skills/drugalpha-research-team/README.en.md)
-- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/latest)
+- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip)
 
 把下面的话发给你的 AI，也可以下载 Release 附件后，按 WorkBuddy 等客户端的说明导入。
 
 > 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team 安装 DrugAlpha 创新药投研专家团。请按我的客户端安装整个 Skill 目录，并用一次只读查询验证现有的 DrugAlpha MCP 连接。
 
 数据库访问使用你自己的 DrugAlpha 账号。需要新接入时，参见 [DrugAlpha MCP 官方连接说明](https://github.com/max-nobug/drugalpha-mcp)。公开包提供执行手册、生成脚本和空白 Excel 模板，完整案例文件另行分发。
+
+## DrugAlpha 创新药 Obsidian 知识库
+
+搭建和维护本地投研库，归档公告、研报、纪要和模型，并按授权范围只读查询、追溯原件。基础归档和查询可直接用本地文件。匹配药物标准名或查询已发布管线时，可使用 DrugAlpha MCP。
+
+- [Skill 目录](skills/drugalpha-obsidian-vault)
+- [中文安装说明](skills/drugalpha-obsidian-vault/README.md)
+- [英文安装说明](skills/drugalpha-obsidian-vault/README.en.md)
+- [下载 WorkBuddy ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.0/drugalpha-obsidian-vault-workbuddy.zip)
+
+> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault 安装 DrugAlpha 创新药 Obsidian 知识库 Skill，按我使用的客户端操作。
