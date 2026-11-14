@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.58. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.59. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -27,7 +27,7 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.59/drugalpha-research-team-v0.2.59-public.zip) and install it using your client’s instructions.
 
 ~~~text
 Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
@@ -35,7 +35,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
 Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.59/drugalpha-research-team-v0.2.59-public.zip
 
 After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
 Official DrugAlpha MCP setup guide

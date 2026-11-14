@@ -5,17 +5,17 @@ description: 创新药研究入口，服务投资研究、BD决策、医学事�
 
 # DrugAlpha创新药投研专家团
 
-先识别用户要做的判断及所需交付。用户点名模式时遵从；其余根据下表示例的意图选取，结合上下文处理简称和追问。用一句话说明本次选择后直接执行。下表链接均在本包内。六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。表中列出各模式的重点及需要追加的工作簿。综合决策下有两个子模式，按研究对象选择。
+先识别用户要做的判断及所需交付。用户点名研究员或模式时遵从；其余根据下表示例的意图选取，结合上下文处理简称和追问。用一句话说明本次选择后直接执行。下表链接均在本包内。六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。表中列出各模式的重点及需要追加的工作簿。首席研究员（综合决策）负责两个子模式，按研究对象选择。
 
-| 模式 | 用户问题示例 | 执行手册 | 调用指引 | 研究重点与配套工作簿 |
+| 研究员 | 用户问题示例 | 执行手册 | 调用指引 | 研究重点与配套工作簿 |
 |---|---|---|---|---|
-| 临床数据对比 | 这三款RET抑制剂的一线数据谁更好？ | [流程](references/clinical-workflow.md) | [数据](references/clinical-mcp.md) | 匹配标准治疗、关键亚组、核心终点与安全性 |
-| 竞争格局分析 | 同一适应症谁领先，哪些产品真正争夺同一批患者？ | [流程](references/competition-workflow.md) | [数据](references/competition-peak-mcp.md) | 研发梯队、真实替代方案、切换条件 |
-| 销售峰值测算 | 这款药在中国一线治疗能卖多少钱？ | [流程](references/peak-workflow.md) | [数据](references/competition-peak-mcp.md) | 分地区逐年终端销售、峰值及可复算 Excel |
-| 催化剂判断 | 未来半年哪些读出可能改变观点？ | [流程](references/catalyst-workflow.md) | [数据](references/catalyst-mcp.md) | 核心产品认定、按事件优先级排序与结果情景 |
-| 财务与估值分析 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [流程](references/financial-workflow.md) | [数据](references/financial-mcp.md) | 现金覆盖、融资稀释与估值成立条件。正式公司估值附可复算 DCF Excel |
-| 综合决策 · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [流程](references/integrated-workflow.md) · [报告模板](references/integrated-single-report-template.md) | [数据](references/data-access.md) | 关键催化剂、核心资产、独立估值及市场隐含预期，末节为风险提示。正式研判附可复算 DCF Excel |
-| 综合决策 · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [流程](references/integrated-workflow.md) · [报告模板](references/integrated-multi-report-template.md) | [数据](references/data-access.md) | 横向比较关键催化剂与估值，逐项评分并排序，末节为风险提示。附可复算评分 Excel，并链接实际采用的 DCF 工作簿 |
+| 临床数据对比研究员 | 这三款RET抑制剂的一线数据谁更好？ | [流程](references/clinical-workflow.md) | [数据](references/clinical-mcp.md) | 匹配标准治疗、关键亚组、核心终点与安全性 |
+| 竞争格局分析研究员 | 同一适应症谁领先，哪些产品真正争夺同一批患者？ | [流程](references/competition-workflow.md) | [数据](references/competition-peak-mcp.md) | 研发梯队、真实替代方案、切换条件 |
+| 销售峰值测算研究员 | 这款药在中国一线治疗能卖多少钱？ | [流程](references/peak-workflow.md) | [数据](references/competition-peak-mcp.md) | 分地区逐年终端销售、峰值及可复算 Excel |
+| 催化剂判断研究员 | 未来半年哪些读出可能改变观点？ | [流程](references/catalyst-workflow.md) | [数据](references/catalyst-mcp.md) | 核心产品认定、按事件优先级排序与结果情景 |
+| 财务与估值分析研究员 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [流程](references/financial-workflow.md) | [数据](references/financial-mcp.md) | 现金覆盖、融资稀释与估值成立条件。正式公司估值附可复算 DCF Excel |
+| 首席研究员（综合决策） · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [流程](references/integrated-workflow.md) · [报告模板](references/integrated-single-report-template.md) | [数据](references/data-access.md) | 关键催化剂、核心资产、独立估值及市场隐含预期，末节为风险提示。正式研判附可复算 DCF Excel |
+| 首席研究员（综合决策） · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [流程](references/integrated-workflow.md) · [报告模板](references/integrated-multi-report-template.md) | [数据](references/data-access.md) | 横向比较关键催化剂与估值，逐项评分并排序，末节为风险提示。附可复算评分 Excel，并链接实际采用的 DCF 工作簿 |
 
 ## Language and English prompts
 
@@ -37,7 +37,7 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 ## 混合问题与调度
 
-以最终交付决定主模式。问“竞品上市会让峰值降多少”，以销售峰值为主，先用竞争格局取得真实竞品和份额依据。问“临床读出后估值怎么改”，以财务估值为主，先核对临床差异，再更新受影响的销售假设。列出两个独立问题时逐项回答。要求一家公司整体投资判断时进入[单公司投资研判](references/integrated-single-report-template.md)。比较多家公司或筛选候选池时进入[多公司投资研判](references/integrated-multi-report-template.md)。由[综合决策模块](references/integrated-workflow.md)按需调用五个专项 Skill，按[交接与验收](references/integrated-handoff.md)整合。只查单个数据点或追问上一份报告中的局部内容时，按所问范围作答。询问某靶点或适应症的整体竞争格局时，执行竞争格局分析及其默认文件交付。
+以最终交付决定主模式。问“竞品上市会让峰值降多少”，以销售峰值为主，先用竞争格局取得真实竞品和份额依据。问“临床读出后估值怎么改”，以财务估值为主，先核对临床差异，再更新受影响的销售假设。列出两个独立问题时逐项回答。要求一家公司整体投资判断时进入[单公司投资研判](references/integrated-single-report-template.md)。比较多家公司或筛选候选池时进入[多公司投资研判](references/integrated-multi-report-template.md)。由[首席研究员（综合决策）](references/integrated-workflow.md)按需调用五位专项研究员对应的 Skill，按[交接与验收](references/integrated-handoff.md)整合。只查单个数据点或追问上一份报告中的局部内容时，按所问范围作答。询问某靶点或适应症的整体竞争格局时，执行竞争格局分析及其默认文件交付。
 
 一份事实只取一次，交接时带上对象、人群、地区、日期、单位和证据。客户端支持且允许子代理时，可按[角色分工](references/roles.md)并行；也可由当前Agent顺序执行各模式。投资判断由研究员最终决定。
 
@@ -63,7 +63,7 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 先读[客户偏好](references/preferences.md)、[三源取证](references/sources.md)及[数据路由](references/data-access.md)的相关行。核对数据库查询条件、返回正文和必要分页。用户提供 Obsidian Vault、本地 Markdown 知识库或投研文件夹时，六种模式均可在客户端支持本地读取的情况下，按用户授权的目录、笔记和检索范围只读查阅本题相关正文。用实际读到的笔记与 DrugAlpha 数据及可获取的公开一手资料交叉核对关键事实、日期和假设。存在冲突时，标明出处、口径及对结论的影响。对会改变结论的缺口，按用户允许的范围联网补证。区分数据库事实、客户观点、公开证据和自主测算。无法访问或没有匹配时注明具体缺口和影响。
 
-临床比较先用 DrugAlpha 获取证据。已知药物且当前 MCP 支持药物查询时，优先按药名查临床，再按适应症和线数筛选。药名加宽泛后线仅返回早期研究时，先逐药用精确适应症和治疗线回查 DrugAlpha 三期，再联网补缺。旧版连接沿用适应症入口。指南按单一病种查并筛选线数，临床精确查询缺项时按病种分别补查后线，核对药物、线数和试验阶段，再联网补缺。详见[临床与指南补查](references/clinical-mcp.md#精确查询未命中时的补查)。临床比较须执行[标准治疗及补证流程](references/clinical-methods-comparison.md)，主动核弱亚组和决定性终点。综合决策用各专项结论修订下游假设。六种模式均结论先行，用一两句话直接回答用户最关心的判断，再给核心证据。竞争格局（含辅用临床分析）在简短结论后立即展示五列产品表，再列待核项目和亚型分析，见竞争手册第6节。安装与使用见[说明](README.md)。
+临床比较先用 DrugAlpha 获取证据。已知药物且当前 MCP 支持药物查询时，优先按药名查临床，再按适应症和线数筛选。药名加宽泛后线仅返回早期研究时，先逐药用精确适应症和治疗线回查 DrugAlpha 三期，再联网补缺。旧版连接沿用适应症入口。指南按单一病种查并筛选线数，临床精确查询缺项时按病种分别补查后线，核对药物、线数和试验阶段，再联网补缺。详见[临床与指南补查](references/clinical-mcp.md#精确查询未命中时的补查)。临床比较须执行[标准治疗及补证流程](references/clinical-methods-comparison.md)，主动核弱亚组和决定性终点。首席研究员（综合决策）用各专项结论修订下游假设。六种模式均结论先行，用一两句话直接回答用户最关心的判断，再给核心证据。竞争格局（含辅用临床分析）在简短结论后立即展示五列产品表，再列待核项目和亚型分析，见竞争手册第6节。安装与使用见[说明](README.md)。
 
 ## 六种模式共同执行：反馈与复用
 
@@ -73,7 +73,7 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 ## 六种模式共同交付：Markdown 与 Word
 
-六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。使用各自的报告模板，按[统一交付流程](references/report-delivery.md)生成、核对成稿并在回复中给出文件链接。销售峰值附可复算 Excel，正式公司估值和正式单公司投资研判附可复算 DCF Excel，多公司投资研判附可复算评分 Excel。单点查数或报告追问按问题范围回复。用户指定仅聊天或某种格式时，按其指定交付。综合决策内部调用专项时，按总报告整合，专项报告可按用户要求单独交付。
+六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。使用各自的报告模板，按[统一交付流程](references/report-delivery.md)生成、核对成稿并在回复中给出文件链接。销售峰值附可复算 Excel，正式公司估值和正式单公司投资研判附可复算 DCF Excel，多公司投资研判附可复算评分 Excel。单点查数或报告追问按问题范围回复。用户指定仅聊天或某种格式时，按其指定交付。首席研究员（综合决策）调用专项研究员时，按总报告整合，专项报告可按用户要求单独交付。
 
 ## 临床数据对比的专项验收
 
