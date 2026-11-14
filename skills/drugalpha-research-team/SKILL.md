@@ -52,7 +52,7 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
    - **浏览器 OAuth**。WorkBuddy 打开「专家·技能·连接器 → 连接器 → 自定义连接器 → 添加 MCP」，填名称 `drugalpha`、地址 `https://drugalpha.com/mcp`，传输选 HTTP（Streamable HTTP），保存后完成浏览器 OAuth。Codex 可用插件的登录入口，或在终端依次运行 `codex mcp add drugalpha --url https://drugalpha.com/mcp` 和 `codex mcp login drugalpha`。其他客户端按实际菜单给步骤。
 
-   - **个人 Key 连接**。登录 DrugAlpha 创新药投研数据库，在导航栏打开[连接我的 AI](https://drugalpha.com/connect-ai)，选择「个人 Key 连接」，进入[创建与管理个人 Key](https://drugalpha.com/oauth/keys)，按账号权限创建并复制 Key。在支持自定义请求头或 Bearer Token 的客户端添加远程 MCP，名称填 `drugalpha`，地址填 `https://drugalpha.com/mcp`，传输选 Streamable HTTP。请求头名称填 `Authorization`，值填 `Bearer <个人 Key>`。如有专用 Bearer Token 字段，按客户端说明直接填 Key。保存并启用，再按下一步验证。
+   - **个人 Key 连接**。登录 DrugAlpha 创新药投研数据库，在导航栏打开[连接我的 AI](https://drugalpha.com/connect-ai)，选择「个人 Key 连接」，进入[创建与管理个人 Key](https://drugalpha.com/oauth/keys)，按账号权限创建并复制 Key。Alpha 派和 AlphaEngine 用户在「DrugAlpha创新药投研」入口直接粘贴 Key 本身，具体菜单见「连接我的 Alpha 派、AlphaEngine」。其他支持自定义请求头或 Bearer Token 的客户端可添加远程 MCP，名称填 `drugalpha`，地址填 `https://drugalpha.com/mcp`，传输选 Streamable HTTP。请求头名称填 `Authorization`，值填 `Bearer <个人 Key>`。如有专用 Bearer Token 字段，按客户端说明直接填 Key。保存并启用，再按下一步验证。
 
    客户端操作参见 [DrugAlpha 官方 GitHub 配置指南](https://github.com/max-nobug/drugalpha-mcp)。
 3. **配置后验证**。用户完成配置后，AI 刷新工具并执行本题的实际只读查询。单独验连时可查恒瑞医药的公司身份。按实际返回报告结果。状态处理见[接入选择与验证](references/data-access.md#接入选择与验证)。

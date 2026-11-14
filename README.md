@@ -9,7 +9,7 @@ Research clinical evidence, competitive landscapes, peak sales, catalysts, finan
 - [Skill directory and AI entry point](skills/drugalpha-research-team)
 - [English installation guide](skills/drugalpha-research-team/README.en.md)
 - [Chinese installation guide](skills/drugalpha-research-team/README.md)
-- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip)
+- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip)
 
 To install with an AI assistant, send it the Skill directory URL and ask it to install the entire directory using your client's supported method. For WorkBuddy or clients that import a ZIP, download the release asset and follow your client's import instructions.
 

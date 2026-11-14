@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.56。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.57。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 1. 安装 Skill
 
@@ -20,7 +20,7 @@
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
@@ -28,7 +28,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip
 
 安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
 DrugAlpha MCP 官方连接说明
@@ -53,7 +53,7 @@ https://github.com/max-nobug/drugalpha-mcp
 |---|---|
 | 官方连接器或插件（推荐） | 客户端能找到 DrugAlpha 官方应用、连接器或插件时，直接启用，再由你在浏览器用自己的账号登录并授权。 |
 | 正式 MCP 地址 + OAuth | 在客户端的自定义 MCP 设置中添加服务。名称填 `drugalpha`，地址填 `https://drugalpha.com/mcp`，传输选 Streamable HTTP。保存后完成浏览器 OAuth 授权。 |
-| 个人 Key | 客户端支持远程 HTTP 和自定义请求头时，可用同一 MCP 地址。登录 DrugAlpha 创新药投研数据库，在导航栏打开[连接我的 AI](https://drugalpha.com/connect-ai)，选择「个人 Key 连接」，进入[创建与管理个人 Key](https://drugalpha.com/oauth/keys)，按账号权限创建并复制 Key。在客户端凭据设置中填写请求头 `Authorization: Bearer <个人 Key>`。如客户端提供专用 Bearer Token 输入框，按其说明填写。请直接在客户端填写 Key。 |
+| 个人 Key | Alpha 派和 AlphaEngine 可在「DrugAlpha创新药投研」入口直接粘贴个人 Key，输入框只填 Key 本身。其他支持远程 HTTP 和自定义请求头的客户端可用同一 MCP 地址。登录 DrugAlpha 创新药投研数据库，在导航栏打开[连接我的 AI](https://drugalpha.com/connect-ai)，选择「个人 Key 连接」，进入[创建与管理个人 Key](https://drugalpha.com/oauth/keys)，按账号权限创建并复制 Key。使用自定义请求头的客户端在凭据设置中填写 `Authorization: Bearer <个人 Key>`。如客户端提供专用 Bearer Token 输入框，按其说明填写。请直接在客户端填写 Key。 |
 
 WorkBuddy 可从「专家·技能·连接器 → 连接器 → 自定义连接器 → 添加 MCP」进入。Codex 可用插件的认证入口，或用 `codex mcp add drugalpha --url https://drugalpha.com/mcp` 添加后运行 `codex mcp login drugalpha`。授权后可刷新工具列表或新开会话。OAuth 授权可在[我的连接](https://drugalpha.com/oauth/connections)管理。更多入口见[连接我的 AI](https://drugalpha.com/connect-ai)和[DrugAlpha 官方接入指南](https://github.com/max-nobug/drugalpha-mcp)。
 

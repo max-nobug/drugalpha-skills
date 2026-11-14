@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.56. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.57. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## Install
 
@@ -10,7 +10,7 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip) and install it using your client’s instructions.
 
 ~~~text
 Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
@@ -18,7 +18,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
 Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip
 
 After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
 Official DrugAlpha MCP setup guide
@@ -31,7 +31,7 @@ https://github.com/max-nobug/drugalpha-mcp
 
 > Help me connect DrugAlpha MCP. Check for an existing connection first. For setup, read README.md and INSTALL-AGENT.md at https://github.com/max-nobug/drugalpha-mcp and follow the instructions for my client. Show me where to authorize the connection or enter my personal key, then verify it with a live read-only query.
 
-For manual setup, use the official connector where available or add `https://drugalpha.com/mcp` as a Streamable HTTP server named `drugalpha`. Authorize in your browser. For clients that support personal keys, open [Connect my AI](https://drugalpha.com/connect-ai) and [Personal Key management](https://drugalpha.com/oauth/keys). In the client's credential settings use `Authorization: Bearer <personal key>` when configuring a custom header. [Official client setup guide](https://github.com/max-nobug/drugalpha-mcp)
+For manual setup, use the official connector where available or add `https://drugalpha.com/mcp` as a Streamable HTTP server named `drugalpha`. Authorize in your browser. In Alpha Pai or AlphaEngine, open the DrugAlpha research entry and paste the personal key into the key field as issued. For key creation and client-specific steps, open [Connect my AI](https://drugalpha.com/connect-ai) and [Personal Key management](https://drugalpha.com/oauth/keys). In the client's credential settings use `Authorization: Bearer <personal key>` when configuring a custom header. [Official client setup guide](https://github.com/max-nobug/drugalpha-mcp)
 
 ## Start a research task
 
