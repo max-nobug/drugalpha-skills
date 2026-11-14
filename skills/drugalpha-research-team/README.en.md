@@ -2,7 +2,24 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.57. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.58. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+
+## What the team does
+
+The DrugAlpha Biopharma Research Team supports investment research, business development due diligence, medical affairs competitive analysis, and evidence preparation for reimbursement discussions. It queries DrugAlpha MCP first for available clinical, pipeline, competitive landscape, and catalyst data. It also uses authorized local materials, including Obsidian notes, and public primary sources to assess drug differentiation, events that could change the investment thesis, and expectations implied by the current valuation.
+
+You can use any specialist independently or ask the Chief Research Analyst (Integrated Research) to coordinate a single-company or multi-company investment review.
+
+| Research role | Responsibilities |
+|---|---|
+| **Clinical Data Comparison Analyst** | Aligns indications, treatment lines, and subgroups. Compares efficacy and safety with the current standard of care, evaluates PFS and OS separately, and identifies each drug's strengths and limitations. |
+| **Competitive Landscape Analyst** | Maps competitors by target and indication, compares development progress, and identifies the leading programs and which ones compete for the same patients. |
+| **Peak Sales Analyst** | Estimates patient counts, uptake, share, price, and treatment duration for China and overseas markets. Delivers annual sales and peak sales with a recalculable Excel model. |
+| **Catalyst Analyst** | Tracks out-licensing, regulatory filings and approvals, clinical readouts, sales uptake, and royalty receipts for core assets. Prioritizes events and specifies what outcomes would change the investment thesis. |
+| **Financial and Valuation Analyst** | Assesses cash runway, financing needs, and dilution risk. Builds an independent valuation, presents the DrugAlpha platform reference value, and explains what the market price implies. |
+| **Chief Research Analyst (Integrated Research)** | Defines the research questions, coordinates specialists, resolves differences in evidence, and brings clinical, competitive, and catalyst findings into sales and valuation assumptions. A **single-company review** presents the thesis, key catalysts, and strongest counterevidence. A **multi-company review** explains the scores and ranks the companies for further research. |
+
+Full research includes matching Markdown and Word reports by default. Peak sales, formal DCF valuations, and multi-company scoring include a recalculable Excel workbook. Reports default to the language of your question, with Chinese or English available on request.
 
 ## Install
 
@@ -10,7 +27,7 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip) and install it using your client’s instructions.
 
 ~~~text
 Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
@@ -18,7 +35,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
 Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip
 
 After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
 Official DrugAlpha MCP setup guide

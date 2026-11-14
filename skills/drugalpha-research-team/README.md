@@ -2,7 +2,24 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.57。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.58。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+
+## 专家团能做什么
+
+DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽调、医学事务竞品分析和医保谈判证据准备。专家团优先通过 DrugAlpha MCP 获取临床、管线、竞争格局和催化剂数据，并结合你授权的 Obsidian 等本地资料和公开一手资料，判断药物的差异化、可能改变投资判断的事件，以及当前估值隐含的预期。
+
+你可以单独调用任一位专项研究员，也可以请首席研究员（综合决策）协调五位研究员，完成单公司或多公司投资研判。
+
+| 专家分工 | 负责什么 |
+|---|---|
+| **临床数据对比研究员** | 对齐适应症、治疗线数和患者亚组，与现行标准治疗比较疗效和安全性。分别说明 PFS 和 OS，指出各药的数据亮点与短板。 |
+| **竞争格局分析研究员** | 按靶点和适应症梳理竞品与研发位次，判断谁领先、各自和谁竞争，以及哪些产品争夺同一批患者。 |
+| **销售峰值测算研究员** | 分中国和海外测算患者数、渗透率、份额、价格和疗程，给出逐年销售和峰值，并提供可复算 Excel。 |
+| **催化剂判断研究员** | 跟踪核心产品的海外授权、申报与获批、临床读出、销售放量和分成兑现，按重要性排序，说明什么结果会改变投资判断。 |
+| **财务与估值分析研究员** | 判断现金能否撑到关键节点，评估融资与稀释压力，独立测算估值，并列出 DrugAlpha 平台参考值与当前市值隐含的预期。 |
+| **首席研究员（综合决策）** | 拆解问题，协调专项研究，核对关键证据并处理分歧，把临床、竞争和催化剂的发现落实到销售与估值假设。**单公司投资研判**给出核心判断、关键催化剂和最强反证。**多公司投资研判**逐项评分，给出优先深研顺序和理由。 |
+
+完整研究默认交付同版 Markdown 和 Word。销售峰值、正式 DCF 估值和多公司评分附可复算 Excel。报告默认使用提问语言，也可指定中文或英文。
 
 ## 1. 安装 Skill
 
@@ -20,7 +37,7 @@
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
@@ -28,7 +45,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.57/drugalpha-research-team-v0.2.57-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.58/drugalpha-research-team-v0.2.58-public.zip
 
 安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
 DrugAlpha MCP 官方连接说明
