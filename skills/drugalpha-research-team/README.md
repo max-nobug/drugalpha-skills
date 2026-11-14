@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.61。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.62。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
@@ -37,7 +37,7 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.61/drugalpha-research-team-v0.2.61-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.62/drugalpha-research-team-v0.2.62-public.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
@@ -45,7 +45,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.61/drugalpha-research-team-v0.2.61-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.62/drugalpha-research-team-v0.2.62-public.zip
 
 安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
 DrugAlpha MCP 官方连接说明
@@ -93,9 +93,9 @@ WorkBuddy 可从「专家·技能·连接器 → 连接器 → 自定义连接�
 | 竞争格局分析 | 同一适应症谁领先，哪些产品真正争夺同一批患者？ | [报告模板](references/competition-report-template.md) |
 | 销售峰值测算 | 这款药在中国一线治疗能卖多少钱？ | [报告模板](references/peak-report-template.md) · [Excel 模板](assets/peak-sales-template.xlsx) |
 | 催化剂判断 | 未来半年哪些读出可能改变观点？ | [报告模板](references/catalyst-report-template.md) |
-| 财务与估值分析 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [财务分析模板](references/financial-report-template.md) · [估值分析模板](references/valuation-report-template.md) |
-| 综合决策 · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [报告模板](references/integrated-single-report-template.md) |
-| 综合决策 · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [报告模板](references/integrated-multi-report-template.md) |
+| 财务与估值分析 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [财务分析模板](references/financial-report-template.md) · [估值分析模板](references/valuation-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) |
+| 综合决策 · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [报告模板](references/integrated-single-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) |
+| 综合决策 · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) |
 
 综合决策包含以上两种用法。单公司研判附可复算 DCF Excel。多公司研判附可复算评分 Excel，并链接实际采用的 DCF 工作簿。
 

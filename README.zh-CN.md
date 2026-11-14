@@ -22,7 +22,7 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 - [Skill 目录](skills/drugalpha-research-team)
 - [中文安装说明](skills/drugalpha-research-team/README.md)
 - [英文安装说明](skills/drugalpha-research-team/README.en.md)
-- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.61/drugalpha-research-team-v0.2.61-public.zip)
+- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.62/drugalpha-research-team-v0.2.62-public.zip)
 
 把下面的话发给你的 AI，也可以下载 Release 附件后，按 WorkBuddy 等客户端的说明导入。
 
