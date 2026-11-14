@@ -9,7 +9,7 @@ Research clinical evidence, competitive landscapes, peak sales, catalysts, finan
 - [Skill directory and AI entry point](skills/drugalpha-research-team)
 - [English installation guide](skills/drugalpha-research-team/README.en.md)
 - [Chinese installation guide](skills/drugalpha-research-team/README.md)
-- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip)
+- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip)
 
 To install with an AI assistant, send it the Skill directory URL and ask it to install the entire directory using your client's supported method. For WorkBuddy or clients that import a ZIP, download the release asset and follow your client's import instructions.
 
@@ -24,7 +24,7 @@ Build and maintain a local research vault, archive filings and models, and run r
 - [Skill directory](skills/drugalpha-obsidian-vault)
 - [English installation guide](skills/drugalpha-obsidian-vault/README.en.md)
 - [Chinese installation guide](skills/drugalpha-obsidian-vault/README.md)
-- [Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
+- [Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip)
 
 Send the installation prompt below to your AI assistant. You can also download the Release ZIP and import it if your client supports ZIP imports, or extract it and install the whole directory in your client’s Skill location.
 

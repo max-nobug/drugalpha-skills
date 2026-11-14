@@ -9,7 +9,7 @@
 - [Skill 目录和 AI 执行入口](skills/drugalpha-research-team)
 - [中文安装说明](skills/drugalpha-research-team/README.md)
 - [英文安装说明](skills/drugalpha-research-team/README.en.md)
-- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip)
+- [下载正式版 ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.56/drugalpha-research-team-v0.2.56-public.zip)
 
 把下面的话发给你的 AI，也可以下载 Release 附件后，按 WorkBuddy 等客户端的说明导入。
 
@@ -24,7 +24,7 @@
 - [Skill 目录](skills/drugalpha-obsidian-vault)
 - [中文安装说明](skills/drugalpha-obsidian-vault/README.md)
 - [英文安装说明](skills/drugalpha-obsidian-vault/README.en.md)
-- [下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
+- [下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip)
 
 把下面的话发给你的 AI。也可以下载 Release 附件，按客户端说明导入 ZIP，或解压后安装整个 Skill 目录。
 
