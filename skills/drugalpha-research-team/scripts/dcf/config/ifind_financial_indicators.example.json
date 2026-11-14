@@ -1,0 +1,150 @@
+{
+  "description": "Optional extension mapping for iFinD QuantAPI/THS_BD. Common income-statement fields are built in; copy this file to *.local.json only to override or add fields.",
+  "provider": "ifind_quantapi_http",
+  "securityType": "hk_stock",
+  "currency": "CNY",
+  "amountScale": "raw",
+  "notes": [
+    "Do not commit *.local.json if it contains institution-specific indicator choices.",
+    "Hong Kong stock codes use the iFinD format without leading zero, for example 2595.HK.",
+    "Annual THS_BD history uses indiparams [{report_date}, 100, OC]; the fetch script renders report_date per year."
+  ],
+  "dataPool": {
+    "description": "Use only when HK financials are exported as a data_pool report instead of basic_data indicators.",
+    "reportname": "",
+    "functionpara": {
+      "date": "{report_date}",
+      "code": "{code}"
+    },
+    "outputparaExtra": []
+  },
+  "fields": {
+    "revenue": {
+      "label": "营业收入/收益",
+      "required": true,
+      "indicator": "prime_oi",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "net_income_parent": {
+      "label": "归母净利润",
+      "required": false,
+      "indicator": "ni_attr_to_cs",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "gross_profit": {
+      "label": "毛利",
+      "required": false,
+      "indicator": "gross_profit",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "cost": {
+      "label": "营业成本/销售成本",
+      "required": false,
+      "indicator": "",
+      "indiparams": ["{report_date}"]
+    },
+    "sales_expense": {
+      "label": "销售费用/分销开支",
+      "required": false,
+      "indicator": "sales_fee",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "sales_admin_expense": {
+      "label": "销售及管理费用合计",
+      "required": false,
+      "indicator": "sales_ad_and_ga",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "financial_expense": {
+      "label": "财务费用",
+      "required": false,
+      "indicator": "financial_expense",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "rd_expense": {
+      "label": "研发费用",
+      "required": false,
+      "indicator": "rad_cost",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "admin_expense": {
+      "label": "管理费用/行政开支",
+      "required": false,
+      "indicator": "manage_fee",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "income_tax": {
+      "label": "所得税费用",
+      "required": false,
+      "indicator": "income_tax",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "profit_before_tax": {
+      "label": "税前利润/除税前利润",
+      "required": false,
+      "indicator": "",
+      "indiparams": ["{report_date}"]
+    },
+    "depreciation_amortization": {
+      "label": "折旧及摊销",
+      "required": false,
+      "indicator": "p_depreciation_and_amortization",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "depreciation_amortization_alt": {
+      "label": "折旧与摊销（备选口径）",
+      "required": false,
+      "indicator": "deprec_and_amorti",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "depreciation_only": {
+      "label": "固定资产折旧（末级备选）",
+      "required": false,
+      "indicator": "depreciation",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "accumulated_amortization": {
+      "label": "累计摊销（仅审计，不进入DCF）",
+      "required": false,
+      "indicator": "accum_amortized",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "capital_cost_to_daa_reported": {
+      "label": "资本支出/折旧和摊销（iFinD原始值，仅审计）",
+      "required": false,
+      "indicator": "capital_cost_to_daa",
+      "indiparams": ["{report_date}"],
+      "valueType": "raw"
+    },
+    "capex": {
+      "label": "资本开支/购建固定资产无形资产现金流",
+      "required": false,
+      "indicator": "capital_cost",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "operating_capital_change": {
+      "label": "营运资本变动",
+      "required": false,
+      "indicator": "operating_capital_change",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "operating_capital": {
+      "label": "营运资本",
+      "required": false,
+      "indicator": "operating_capital",
+      "indiparams": ["{report_date}", "OC"]
+    },
+    "cash_equivalents": {
+      "label": "现金及现金等价物",
+      "required": false,
+      "indicator": "cce",
+      "indiparams": ["{report_date}", "100", "OC"]
+    },
+    "operating_cash_flow": {
+      "label": "经营活动现金流",
+      "required": false,
+      "indicator": "",
+      "indiparams": ["{report_date}"]
+    }
+  }
+}

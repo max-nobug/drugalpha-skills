@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "usagePolicy": "仅在疾病、市场、严重度描述和分母口径均匹配时直接预填；医院/登记队列不得冒充全体患者比例。",
+  "records": [
+    {
+      "recordId": "AD_CHINA_POPULATION_SCORAD",
+      "diseaseKey": "atopic-dermatitis",
+      "aliases": ["特应性皮炎", "特应性湿疹", "atopic dermatitis", "AD"],
+      "market": "china",
+      "setting": "全国成人一般人群横断面研究",
+      "denominator": "中国成人特应性皮炎患者",
+      "severityDefinition": "SCORAD：原文分为轻度、中度、重度",
+      "ratios": {
+        "mild": 0.7333,
+        "moderate": 0.2478,
+        "severe": 0.0189,
+        "mild_to_moderate": 0.9811,
+        "moderate_to_severe": 0.2667
+      },
+      "sourceTitle": "Prevalence and risk factors of atopic dermatitis in Chinese adults: a nationwide population-based cross-sectional study",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10106203/",
+      "confidence": "high"
+    },
+    {
+      "recordId": "PSORIASIS_CHINA_SHENZHEN_CLINIC",
+      "diseaseKey": "psoriasis",
+      "aliases": ["银屑病", "牛皮癣", "psoriasis"],
+      "market": "china",
+      "setting": "深圳临床横断面队列",
+      "denominator": "就诊银屑病患者",
+      "severityDefinition": "研究综合疾病评估分为轻度、中度、重度",
+      "ratios": {
+        "mild": 0.367,
+        "moderate": 0.371,
+        "severe": 0.262,
+        "mild_to_moderate": 0.738,
+        "moderate_to_severe": 0.633
+      },
+      "sourceTitle": "Epidemiological Profile of Psoriasis and Linked Comorbidities in Chinese Population at Shenzhen",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12441203/",
+      "confidence": "medium"
+    },
+    {
+      "recordId": "RA_CHINA_IMPROVE_DAS28",
+      "diseaseKey": "rheumatoid-arthritis",
+      "aliases": ["类风湿关节炎", "rheumatoid arthritis", "RA"],
+      "market": "china",
+      "setting": "中国多中心前瞻性临床队列",
+      "denominator": "入组类风湿关节炎患者",
+      "severityDefinition": "DAS28-CRP：缓解/低活动度与中高活动度",
+      "ratios": {
+        "remission_or_low": 0.5963,
+        "moderate_to_high": 0.4037,
+        "active": 0.4037
+      },
+      "sourceTitle": "Improving Clinical Management and Patient-Reported Outcomes Among Patients with Rheumatoid Arthritis in China (IMPROVE Study)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12085311/",
+      "confidence": "medium"
+    },
+    {
+      "recordId": "AS_CHINA_BASDAI_ACTIVE",
+      "diseaseKey": "ankylosing-spondylitis",
+      "aliases": ["强直性脊柱炎", "ankylosing spondylitis", "AS"],
+      "market": "china",
+      "setting": "中国南方六家医院真实世界调查",
+      "denominator": "调查中的强直性脊柱炎患者",
+      "severityDefinition": "活动性定义为BASDAI≥4",
+      "ratios": {
+        "active": 0.398,
+        "inactive": 0.602
+      },
+      "sourceTitle": "The Trend of Targeted Therapies in Chinese Patients With Ankylosing Spondylitis",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8581396/",
+      "confidence": "medium"
+    },
+    {
+      "recordId": "SLE_CHINA_CSTAR_SLEDAI",
+      "diseaseKey": "systemic-lupus-erythematosus",
+      "aliases": ["系统性红斑狼疮", "systemic lupus erythematosus", "SLE"],
+      "market": "china",
+      "setting": "中国304家风湿中心CSTAR登记队列",
+      "denominator": "登记的系统性红斑狼疮患者",
+      "severityDefinition": "SLEDAI：≤6轻度活动，7–12中度活动，>12高度活动",
+      "ratios": {
+        "mild": 0.664,
+        "moderate": 0.19,
+        "severe": 0.146,
+        "mild_to_moderate": 0.854,
+        "moderate_to_severe": 0.336,
+        "active": 0.418
+      },
+      "sourceTitle": "Chinese SLE Treatment and Research Group (CSTAR) Registry 2009–2019",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9524770/",
+      "confidence": "medium"
+    },
+    {
+      "recordId": "CROHN_CHINA_DIAGNOSIS_ACTIVITY",
+      "diseaseKey": "crohn-disease",
+      "aliases": ["克罗恩病", "crohn disease", "Crohn's disease", "CD"],
+      "market": "china",
+      "setting": "中国单中心确诊时临床队列",
+      "denominator": "确诊时克罗恩病患者",
+      "severityDefinition": "原文疾病活动度分为轻度、中度、重度",
+      "ratios": {
+        "mild": 0.221,
+        "moderate": 0.471,
+        "severe": 0.169,
+        "mild_to_moderate": 0.692,
+        "moderate_to_severe": 0.64
+      },
+      "sourceTitle": "Sex-specific comparison of clinical characteristics and prognosis in Crohn's disease: a retrospective cohort study of 611 patients in China",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9557081/",
+      "confidence": "low"
+    },
+    {
+      "recordId": "ALOPECIA_US_POPULATION_SALT50",
+      "diseaseKey": "alopecia-areata",
+      "aliases": ["斑秃", "alopecia areata", "AA"],
+      "market": "us",
+      "setting": "美国一般人群横断面调查",
+      "denominator": "临床判定的斑秃患者",
+      "severityDefinition": "轻度SALT≤50；中重度SALT>50",
+      "ratios": {
+        "mild": 0.5714,
+        "moderate_to_severe": 0.4286
+      },
+      "sourceTitle": "A Large Cross-Sectional Survey Study of the Prevalence of Alopecia Areata in the United States",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7131990/",
+      "confidence": "medium"
+    }
+  ]
+}

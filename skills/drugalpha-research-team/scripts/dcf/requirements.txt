@@ -1,0 +1,6 @@
+# DCF Python runtime dependencies used by the server-side export workflow.
+# Keep this separate from the general AI assistant requirements so DCF can run
+# in its own minimal managed virtual environment on production.
+requests>=2.25,<3
+akshare>=1.15,<2
+openpyxl>=3.1,<4
