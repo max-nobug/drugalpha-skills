@@ -75,6 +75,18 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。使用各自的报告模板，按[统一交付流程](references/report-delivery.md)生成、核对成稿并在回复中给出文件链接。销售峰值附可复算 Excel，正式公司估值和正式单公司投资研判附可复算 DCF Excel，多公司投资研判附可复算评分 Excel。单点查数或报告追问按问题范围回复。用户指定仅聊天或某种格式时，按其指定交付。首席研究员（综合决策）调用专项研究员时，按总报告整合，专项报告可按用户要求单独交付。
 
+### 生成文件前按任务检查 Python 依赖
+
+确定交付物后，先识别当前客户端实际可用的 Python 和 Skill 安装目录。用运行内置脚本的同一个解释器检查本次需要的包能否导入、版本是否符合清单。读取资料和交付 Markdown 可先继续。复用已有可用环境，缺依赖时才给出适用于当前客户端和操作系统的安装命令。命令中的 `python` 用实际解释器替换，DCF 清单路径从实际 Skill 根目录解析。无法进入根目录时，给出带引号的清单绝对路径。
+
+| 本次交付 | Python 依赖 | 缺少依赖时的安装命令示例 |
+|---|---|---|
+| DCF 估值 Excel | 按 [DCF 依赖清单](scripts/dcf/requirements.txt) 配置，含 `openpyxl`、`requests`、`akshare`。 | `python -m pip install -r scripts/dcf/requirements.txt` |
+| 销售峰值 Excel | `openpyxl>=3.1,<4`。 | `python -m pip install "openpyxl>=3.1,<4"` |
+| Word 报告 | `python-docx`，代码中导入 `docx`。 | `python -m pip install python-docx` |
+
+安装后用同一个解释器复查导入，并运行对应脚本的 `--help` 验证入口可启动。仅需查询或 Markdown 时可直接执行。当前客户端无法运行 Python 或安装依赖时，说明受影响的文件及可采用的配置方式，继续完成可交付内容。
+
 ## 临床数据对比的专项验收
 
 每次使用临床数据对比模式完成研究后，按[五节临床数据分析模板](references/clinical-report-template.md)交付同版 Markdown 与 Word，使用[统一 Word 版式](references/report-delivery.md)。第 04 节固定分列「数据亮点」与「数据短板」，两个小节都逐药列写。交付前核对 Markdown 与 Word。聊天中同步给出结论和决定性数据。

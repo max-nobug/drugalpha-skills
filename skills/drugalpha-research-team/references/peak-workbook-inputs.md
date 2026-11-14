@@ -1,6 +1,6 @@
 # 峰值工作簿输入说明
 
-运行 `python scripts/build_peak_sales.py inputs.json output.xlsx`，依赖见 `scripts/dcf/requirements.txt`。生成后用 Excel 完整复算、逐项核实来源，再交付。所有可编辑参数集中在「测算假设」页。
+运行 `python scripts/build_peak_sales.py inputs.json output.xlsx`，依赖为 `openpyxl>=3.1,<4`，安装与检查见 [Skill 入口](../SKILL.md#生成文件前按任务检查-python-依赖)。生成后用 Excel 完整复算、逐项核实来源，再交付。所有可编辑参数集中在「测算假设」页。
 
 - 顶层为 `product`（药名）、`first_year`（十年预测的首年）、`case`（默认中性）和 `regions`（地区列表）。地区名称须唯一且可用作 Excel 页名。
 - 地区对象填 `name`、`currency`、`price`、`indications`。需要跨币种汇总时填 `fx`（人民币／一单位当地币）和 `fx_source`。各独立测算地区在地区页以本币列示。海外采用 DCF 口径时填 `europe_proxy: true`，录入名为「美国」的地区，输出为「海外」工作表和汇总行，销售等于美国当年终端销售 × 1.5，口径写在表下。欧洲无需单独录入。

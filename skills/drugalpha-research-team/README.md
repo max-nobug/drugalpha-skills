@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.63。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.64。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
@@ -37,7 +37,7 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.63/drugalpha-research-team-v0.2.63-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
@@ -45,12 +45,24 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.63/drugalpha-research-team-v0.2.63-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip
 
-安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
+安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要生成 Excel 或 Word 时，再检查对应的 Python 依赖，缺项时给出当前客户端适用的安装命令。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
 DrugAlpha MCP 官方连接说明
 https://github.com/max-nobug/drugalpha-mcp
 ~~~
+
+### 按交付物检查 Python 依赖
+
+安装 Skill 后，AI 会在需要生成 Excel 或 Word 时，先用实际运行生成脚本的 Python 检查依赖及版本。所需依赖如下。仅查询资料或生成 Markdown 时可以直接开始。
+
+| 本次交付 | Python 依赖 | 缺少依赖时的安装命令示例 |
+|---|---|---|
+| DCF 估值 Excel | 按 [DCF 依赖清单](scripts/dcf/requirements.txt) 配置，含 `openpyxl`、`requests`、`akshare`。 | `python -m pip install -r scripts/dcf/requirements.txt` |
+| 销售峰值 Excel | `openpyxl>=3.1,<4`。 | `python -m pip install "openpyxl>=3.1,<4"` |
+| Word 报告 | `python-docx`，代码中导入 `docx`。 | `python -m pip install python-docx` |
+
+命令从实际 Skill 根目录运行。`python` 请替换为当前客户端使用的解释器，例如 `python3`、`py -3` 或虚拟环境里的 Python。若当前目录不同，DCF 命令中的清单路径改用带引号的实际绝对路径。缺少依赖时，AI 会按你的客户端和操作系统给出具体命令。安装后用同一个解释器复查导入和对应脚本的 `--help`。
 
 ## 2. 连接 DrugAlpha 创新药数据库 MCP
 

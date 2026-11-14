@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.63. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.64. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -27,7 +27,7 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.63/drugalpha-research-team-v0.2.63-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip) and install it using your client’s instructions.
 
 ~~~text
 Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
@@ -35,12 +35,24 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
 Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.63/drugalpha-research-team-v0.2.63-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip
 
-After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
+After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. Check Python dependencies when Excel or Word is requested and provide a client-specific install command for missing packages. If setup is needed, follow the official guide below and tell me where to complete authorization.
 Official DrugAlpha MCP setup guide
 https://github.com/max-nobug/drugalpha-mcp
 ~~~
+
+### Check Python dependencies by deliverable
+
+Before generating Excel or Word files, the assistant checks the packages and versions in the Python environment that will run the scripts. Read-only research and Markdown can proceed immediately.
+
+| Deliverable | Python dependencies | Example install command when needed |
+|---|---|---|
+| DCF valuation workbook | Use the [DCF requirements file](scripts/dcf/requirements.txt), which lists `openpyxl`, `requests`, and `akshare`. | `python -m pip install -r scripts/dcf/requirements.txt` |
+| Peak sales workbook | `openpyxl>=3.1,<4`. | `python -m pip install "openpyxl>=3.1,<4"` |
+| Word report | `python-docx`, imported as `docx`. | `python -m pip install python-docx` |
+
+Run the example commands from the actual Skill directory. Replace `python` with your client's interpreter, such as `python3`, `py -3`, or the Python executable in a virtual environment. If you run the DCF command from another directory, use the quoted absolute path to the requirements file. The assistant provides a command suited to your client and operating system when a dependency is missing. After installation, use the same interpreter to recheck the imports and run the relevant script with `--help`.
 
 ## Connect DrugAlpha MCP
 
