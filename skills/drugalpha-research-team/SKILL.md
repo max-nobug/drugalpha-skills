@@ -15,7 +15,7 @@ description: 创新药研究入口，服务投资研究、BD决策、医学事�
 | 催化剂判断研究员 | 未来半年哪些读出可能改变观点？ | [流程](references/catalyst-workflow.md) | [报告模板](references/catalyst-report-template.md) | [数据](references/catalyst-mcp.md) | 核心产品认定、按事件优先级排序与结果情景 |
 | 财务与估值分析研究员 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [流程](references/financial-workflow.md) | [财务分析模板](references/financial-report-template.md) · [估值分析模板](references/valuation-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) | [数据](references/financial-mcp.md) | 现金覆盖、融资稀释与估值成立条件。正式公司估值附可复算 DCF Excel |
 | 首席研究员（综合决策） · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-single-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) | [数据](references/data-access.md) | 关键催化剂、核心资产、独立估值及市场隐含预期，末节为风险提示。正式研判附可复算 DCF Excel |
-| 首席研究员（综合决策） · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) | [数据](references/data-access.md) | 横向比较关键催化剂与估值，逐项评分并排序，末节为风险提示。附可复算评分 Excel，并链接实际采用的 DCF 工作簿 |
+| 首席研究员（综合决策） · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 模板](assets/multi-company-scoring-template.xlsx) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) | [数据](references/data-access.md) | 横向比较关键催化剂与估值，逐项评分并排序，末节为风险提示。附可复算评分 Excel，并链接实际采用的 DCF 工作簿 |
 
 ## Language and English prompts
 
