@@ -8,6 +8,23 @@ Release v0.2.55. Use DrugAlpha, your authorized research notes and public primar
 
 Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md) at its root. Import the package through your client's Skills settings or place the directory in its documented Skill location. If your client only supports file access, place the directory in its workspace and ask it to read SKILL.md.
 
+### Copy this prompt to install with AI
+
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip) and install it using your client’s instructions.
+
+~~~text
+Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
+https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
+
+Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
+Skill ZIP for manual installation
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip
+
+After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
+Official DrugAlpha MCP setup guide
+https://github.com/max-nobug/drugalpha-mcp
+~~~
+
 ## Connect DrugAlpha MCP
 
 [Register for a DrugAlpha account](https://drugalpha.com/) if you need one. Start with an existing connection if available. To set up a new connection, give your assistant this prompt.

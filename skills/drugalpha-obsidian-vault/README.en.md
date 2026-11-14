@@ -6,11 +6,22 @@ Build a local Obsidian vault from company filings, research reports, meeting not
 
 ## Install the skill
 
-[Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip)
+### Copy this prompt to install with AI
 
-Send the installation prompt below to your AI assistant. You can also download the Release ZIP and import it if your client supports ZIP imports, or extract it and install the whole directory in your client’s Skill location.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip) and install it using your client’s instructions.
 
-> Install the DrugAlpha Biopharma Obsidian Vault Skill from https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault. Install the entire Skill directory using the method supported by my client. If I need drug matching or pipeline queries, verify my DrugAlpha MCP connection with a read-only query.
+~~~text
+Install the DrugAlpha Biopharma Obsidian Vault Skill from this GitHub directory.
+https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault
+
+Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
+Skill ZIP for manual installation
+https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.1/drugalpha-obsidian-vault-v0.1.1.zip
+
+After installation, check that the Skill is available. Once I provide my local Obsidian Vault path, verify read access to the notes I authorize. Check DrugAlpha MCP only if I ask to match drug names or query published pipeline records. Use the official setup guide below if needed.
+Official DrugAlpha MCP setup guide
+https://github.com/max-nobug/drugalpha-mcp
+~~~
 
 Keep the complete `drugalpha-obsidian-vault/` folder, including `SKILL.md`, `references/`, `assets/`, and `agents/`. Use a local client with access to your source files and vault. Building and maintaining the vault requires write access. Research queries need read access.
 

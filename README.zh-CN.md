@@ -13,7 +13,7 @@
 
 把下面的话发给你的 AI，也可以下载 Release 附件后，按 WorkBuddy 等客户端的说明导入。
 
-> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team 安装 DrugAlpha 创新药投研专家团。请按我的客户端安装整个 Skill 目录，并用一次只读查询验证现有的 DrugAlpha MCP 连接。
+[复制给 AI 安装](skills/drugalpha-research-team/README.md#复制给-ai-安装)
 
 数据库访问使用你自己的 DrugAlpha 账号。需要新接入时，参见 [DrugAlpha MCP 官方连接说明](https://github.com/max-nobug/drugalpha-mcp)。公开包提供执行手册、生成脚本和空白 Excel 模板，完整案例文件另行分发。
 
@@ -28,6 +28,6 @@
 
 把下面的话发给你的 AI。也可以下载 Release 附件，按客户端说明导入 ZIP，或解压后安装整个 Skill 目录。
 
-> 请从 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault 安装 DrugAlpha 创新药 Obsidian 知识库 Skill。请按我的客户端安装整个 Skill 目录。如果我需要匹配药物或查询管线，请用一次只读查询验证 DrugAlpha MCP 连接。
+[复制给 AI 安装](skills/drugalpha-obsidian-vault/README.md#复制给-ai-安装)
 
 技能包包含中英文安装说明、执行手册和知识库模板。本地归档和只读查询使用你授权的本地文件。需要匹配药物或查询已发布管线时，使用你自己的 DrugAlpha 账号接入 MCP。[DrugAlpha MCP 官方连接说明](https://github.com/max-nobug/drugalpha-mcp)

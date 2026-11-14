@@ -18,6 +18,23 @@
 
 财务研究优先复用客户已连接且有权限的iFinD、东方财富妙想（Choice）或其他金融MCP；没有适用连接时自动查官方财报，不强制购买或安装。金融数据授权由客户自行提供，分发包不包含账号或密钥。DrugAlpha负责药物数据及估值范围，不负责公司财务和行情取数。
 
+### 复制给 AI 安装
+
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip)，按客户端说明安装。
+
+~~~text
+请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
+https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
+
+请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
+手动安装用的 Skill ZIP
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.55/drugalpha-research-team-v0.2.55-public.zip
+
+安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
+DrugAlpha MCP 官方连接说明
+https://github.com/max-nobug/drugalpha-mcp
+~~~
+
 ## 2. 连接 DrugAlpha 创新药数据库 MCP
 
 还没有账号？请先到 [DrugAlpha 创新药数据库官网](https://drugalpha.com/) 注册自己的账号。首次调用专家团 Skill 时，AI 会先检查连接。已有连接可直接查询。当前会话未发现连接时，AI 会询问你希望由 AI 协助配置，还是自行配置。
