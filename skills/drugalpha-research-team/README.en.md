@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.59. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.60. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -27,7 +27,7 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.59/drugalpha-research-team-v0.2.59-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.60/drugalpha-research-team-v0.2.60-public.zip) and install it using your client’s instructions.
 
 ~~~text
 Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
@@ -35,7 +35,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
 Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.59/drugalpha-research-team-v0.2.59-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.60/drugalpha-research-team-v0.2.60-public.zip
 
 After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. If setup is needed, follow the official guide below and tell me where to complete authorization.
 Official DrugAlpha MCP setup guide
@@ -54,13 +54,14 @@ For manual setup, use the official connector where available or add `https://dru
 
 Upload relevant files or authorize access to selected folders or notes in an Obsidian vault, another local knowledge base or a connected knowledge base. The Skill cross-checks relevant notes against DrugAlpha and public primary sources.
 
-| Mode | Example |
-|---|---|
-| Clinical comparison | Compare selpercatinib and pralsetinib for first-line RET fusion-positive advanced NSCLC. |
-| Competitive landscape | Which VAV1 programs lead, and where do they compete? |
-| Peak sales | Estimate peak sales for this drug in China and overseas. |
-| Catalysts | Which readouts could change the investment thesis over the next six months? |
-| Financial analysis and valuation | Can the company fund its next readout, and what does the current valuation imply? |
-| Integrated research | Assess one company, or compare several companies and rank them for further research. |
+| Mode | Example | Report templates |
+| --- | --- | --- |
+| Clinical comparison | Compare selpercatinib and pralsetinib for first-line RET fusion-positive advanced NSCLC. | [Report template](references/clinical-report-template.md) |
+| Competitive landscape | Which VAV1 programs lead, and where do they compete? | [Report template](references/competition-report-template.md) |
+| Peak sales | Estimate peak sales for this drug in China and overseas. | [Report template](references/peak-report-template.md) |
+| Catalysts | Which readouts could change the investment thesis over the next six months? | [Report template](references/catalyst-report-template.md) |
+| Financial analysis and valuation | Can the company fund its next readout, and what does the current valuation imply? | [Financial analysis template](references/financial-report-template.md) · [Valuation template](references/valuation-report-template.md) |
+| Single-company investment review | Assess one company, its key catalysts, and the strongest counterevidence. | [Report template](references/integrated-single-report-template.md) |
+| Multi-company investment review | Compare several companies, explain the scores, and rank them for further research. | [Report template](references/integrated-multi-report-template.md) |
 
 Full research defaults to Markdown and Word. Peak sales, formal DCF and multi-company scoring also include a recalculable Excel workbook where applicable. Reports default to the language of your question. The internal manuals are in Chinese. The bundled Word formatter supports English clinical reports. For other English reports, check the client's document tooling and any workbook labels inherited from Chinese templates.
