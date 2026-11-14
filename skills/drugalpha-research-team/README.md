@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.64。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.65。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
@@ -37,7 +37,7 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.65/drugalpha-research-team-v0.2.65-public.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药投研专家团 Skill。
@@ -45,7 +45,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-researc
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.64/drugalpha-research-team-v0.2.64-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.65/drugalpha-research-team-v0.2.65-public.zip
 
 安装后确认能调用这个 Skill，并用一次实际只读查询验证 DrugAlpha MCP 连接。需要生成 Excel 或 Word 时，再检查对应的 Python 依赖，缺项时给出当前客户端适用的安装命令。需要新接入时，按下面的官方说明协助配置，并告诉我在哪里完成授权。
 DrugAlpha MCP 官方连接说明

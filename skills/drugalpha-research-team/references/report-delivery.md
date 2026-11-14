@@ -42,19 +42,21 @@ Markdown 报告按相应模板编写，再由 Skill 的统一脚本生成 Word�
 
 用含 `python-docx` 的 Python 环境调用本 Skill 的脚本，使用 UTF-8 Markdown。默认将 Word 写到 Markdown 同目录，报告及工作簿一起交付时将它们保存在同一目录，工作簿链接使用 `./文件名.xlsx`，文件名包含空格时用 Markdown 的尖括号路径写法。
 
+### 正式文件命名
+
 正式文件名中的 XXXX 在临床报告中用简短的药物或适应症主题，在财务与估值报告中用公司名，YYYYMMDD 用本次报告日期。Word 默认从 Markdown 标题和报告日期取值，必要时用 `--report-date YYYY-MM-DD` 明确日期。估值报告里的 Excel 链接用实际生成的文件名，例如 `[独立 DCF Excel](<./贝达药业DCF估值模型-20261112-DrugAlpha Skill生成.xlsx>)`。
 
 | 交付文件 | 文件名 |
 |:---|:---|
 | DCF Excel | `XXXXDCF估值模型-YYYYMMDD-DrugAlpha Skill生成.xlsx` |
-| 估值 Word | `XXXX估值分析-YYYYMMDD-DrugAlpha Skill生成.docx` |
+| 估值 Markdown 与 Word | `XXXX估值分析-YYYYMMDD-DrugAlpha Skill生成.md` 与 `XXXX估值分析-YYYYMMDD-DrugAlpha Skill生成.docx` |
 | 销售峰值 Markdown、Word 与 Excel | `XXXX销售峰值测算-YYYYMMDD-DrugAlpha Skill生成`，分别使用 `.md`、`.docx`、`.xlsx` |
 | 竞争格局 Markdown 与 Word | `XXXX竞争格局分析-YYYYMMDD-DrugAlpha Skill生成.md` 与同名 `.docx` |
 | 临床 Markdown 与 Word | `XXXX临床数据分析-YYYYMMDD-DrugAlpha Skill生成.md` 与同名 `.docx` |
 | 催化剂 Markdown 与 Word | `XXXX催化剂判断-YYYYMMDD-DrugAlpha Skill生成.md` 与同名 `.docx` |
 | 综合 Markdown 与 Word | `XXXX单公司投资研判-YYYYMMDD-DrugAlpha Skill生成` 或 `XXXX多公司投资研判-YYYYMMDD-DrugAlpha Skill生成`，分别使用 `.md` 与 `.docx` |
 | 多公司评分 Excel | `XXXX综合评分-YYYYMMDD-DrugAlpha Skill生成.xlsx` |
-| 财务 Word | `XXXX财务分析-YYYYMMDD-DrugAlpha Skill生成.docx` |
+| 财务 Markdown 与 Word | `XXXX财务分析-YYYYMMDD-DrugAlpha Skill生成.md` 与 `XXXX财务分析-YYYYMMDD-DrugAlpha Skill生成.docx` |
 
 ```text
 python scripts/render_financial_report.py "临床数据分析报告.md" --kind clinical
