@@ -37,7 +37,7 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 - [Skill 目录](skills/drugalpha-obsidian-vault)
 - [中文安装说明](skills/drugalpha-obsidian-vault/README.md)
 - [英文安装说明](skills/drugalpha-obsidian-vault/README.en.md)
-- [下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip)
+- [下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip)
 
 把下面的话发给你的 AI。也可以下载 Release 附件，按客户端说明导入 ZIP，或解压后安装整个 Skill 目录。
 

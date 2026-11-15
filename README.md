@@ -37,7 +37,7 @@ Build and maintain a local research vault, archive filings and models, and run r
 - [Skill directory](skills/drugalpha-obsidian-vault)
 - [English installation guide](skills/drugalpha-obsidian-vault/README.en.md)
 - [Chinese installation guide](skills/drugalpha-obsidian-vault/README.md)
-- [Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip)
+- [Download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip)
 
 Send the installation prompt below to your AI assistant. You can also download the Release ZIP and import it if your client supports ZIP imports, or extract it and install the whole directory in your client’s Skill location.
 

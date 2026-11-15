@@ -8,7 +8,7 @@
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip)，按客户端说明安装。
 
 ~~~text
 请从以下 GitHub 目录安装 DrugAlpha 创新药 Obsidian 知识库 Skill。
@@ -16,7 +16,7 @@ https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidia
 
 请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
 手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.2/drugalpha-obsidian-vault-v0.1.2.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip
 
 安装后确认能调用这个 Skill。等我提供本地 Obsidian Vault 路径后，请在我授权的范围内做一次笔记只读验证。只有我需要匹配标准药名或查询已发布管线时，再检查 DrugAlpha MCP。需要接入时，参考下面的官方说明。
 DrugAlpha MCP 官方连接说明
@@ -63,7 +63,7 @@ AI 先只读盘点，展示目录和样例映射。你确认 Vault、是否按�
 
 ## 用 AI 查询
 
-发起查询时给出 Vault 路径、公司或药物、研究范围和截至日期。只想用库内资料时，明确写「仅用已归档资料，全程只读」。药物问题可直接用研发代号或商品名，请 AI 先沿双链找证据，再用标准名和已核实的别名全文补查。要求逐项区分已发生进展、当时预期和待核实事项，并附原件物理页码或稳定定位。 [检索验收方法](references/acceptance.md)
+发起查询时给出 Vault 路径、公司或药物、研究范围和截至日期。只想用库内资料时，明确写「仅用已归档资料，全程只读」。药物问题可直接用研发代号或商品名，请 AI 先沿双链找证据，再用标准名和已核实的别名全文补查。客户端通过文件名或索引搜不到时，要求直接搜索已归档 Markdown 的正文和 aliases，并报告实际搜索范围和命中的文件。要求逐项区分已发生进展、当时预期和待核实事项，并附原件物理页码或稳定定位。 [检索验收方法](references/acceptance.md)
 
 ## 可直接复制的示例指令
 
