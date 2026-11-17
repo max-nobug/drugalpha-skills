@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.65. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.66. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -27,19 +27,21 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.65/drugalpha-research-team-v0.2.65-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip) and install it using your client’s instructions.
 
 ~~~text
-Install the DrugAlpha Biopharma Research Team Skill from this GitHub directory.
+Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.66 in my current AI client.
+
+Read README.en.md in the directory below, then install the complete Skill directory using the method supported by my client. Keep the directory structure intact.
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
-Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
-Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.65/drugalpha-research-team-v0.2.65-public.zip
+If I need to import the ZIP manually, tell me where to go in my client and which steps to follow. Use this release ZIP.
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip
 
-After installation, check that the Skill is available and run a read-only DrugAlpha query to verify the MCP connection. Check Python dependencies when Excel or Word is requested and provide a client-specific install command for missing packages. If setup is needed, follow the official guide below and tell me where to complete authorization.
-Official DrugAlpha MCP setup guide
+After installation, confirm that my client can invoke the updated Skill. Run a live, read-only DrugAlpha query to verify the identity of Hengrui Pharma and confirm the MCP connection. If setup is needed, follow the official guide and let me complete account authorization.
 https://github.com/max-nobug/drugalpha-mcp
+
+For future tasks that generate Excel or Word files, check the relevant Python dependencies first. If any are missing, provide installation commands for my client and operating system.
 ~~~
 
 ### Check Python dependencies by deliverable

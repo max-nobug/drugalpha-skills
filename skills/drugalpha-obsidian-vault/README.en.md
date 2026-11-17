@@ -8,18 +8,20 @@ Build a local Obsidian vault from company filings, research reports, meeting not
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.4/drugalpha-obsidian-vault-v0.1.4.zip) and install it using your client’s instructions.
 
 ~~~text
-Install the DrugAlpha Biopharma Obsidian Vault Skill from this GitHub directory.
+Please install or update the DrugAlpha Biopharma Obsidian Vault Skill to v0.1.4 in my current AI client.
+
+Read README.en.md in the directory below, then install the complete Skill directory using the method supported by my client. Keep the directory structure intact.
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault
 
-Read README.en.md in the Skill directory and install the entire directory using the method supported by my client. If I need to import the ZIP manually, give me the steps for my client.
-Skill ZIP for manual installation
-https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip
+If I need to import the ZIP manually, tell me where to go in my client and which steps to follow. Use this release ZIP.
+https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.4/drugalpha-obsidian-vault-v0.1.4.zip
 
-After installation, check that the Skill is available. Once I provide my local Obsidian Vault path, verify read access to the notes I authorize. Check DrugAlpha MCP only if I ask to match drug names or query published pipeline records. Use the official setup guide below if needed.
-Official DrugAlpha MCP setup guide
+After installation, confirm that my client can invoke the updated Skill. Once I provide my Obsidian vault path, run a read-only search within the scope I authorize. Tell me which folders you searched and which files matched. If filename or index searches return no results, search the archived Markdown text, drug lists, and verified aliases.
+
+Check the DrugAlpha MCP connection when I need to match standardized drug names or query published pipeline records. Use the official setup guide if needed.
 https://github.com/max-nobug/drugalpha-mcp
 ~~~
 

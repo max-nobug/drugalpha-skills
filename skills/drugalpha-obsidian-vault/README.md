@@ -8,18 +8,20 @@
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.4/drugalpha-obsidian-vault-v0.1.4.zip)，按客户端说明安装。
 
 ~~~text
-请从以下 GitHub 目录安装 DrugAlpha 创新药 Obsidian 知识库 Skill。
+请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药 Obsidian 知识库 Skill 至 v0.1.4。
+
+先阅读下方目录里的 README.md，再按当前客户端支持的方式安装整个 Skill 目录，保留目录结构。
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-obsidian-vault
 
-请先阅读 Skill 目录里的 README.md，按当前客户端支持的方式安装整个目录。如果需要我手动导入 ZIP，请给出对应客户端的操作步骤。
-手动安装用的 Skill ZIP
-https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.3/drugalpha-obsidian-vault-v0.1.3.zip
+如果需要我手动导入，请告诉我当前客户端的菜单路径（若适用）和具体步骤，并使用这个正式版 ZIP。
+https://github.com/max-nobug/drugalpha-skills/releases/download/obsidian-v0.1.4/drugalpha-obsidian-vault-v0.1.4.zip
 
-安装后确认能调用这个 Skill。等我提供本地 Obsidian Vault 路径后，请在我授权的范围内做一次笔记只读验证。只有我需要匹配标准药名或查询已发布管线时，再检查 DrugAlpha MCP。需要接入时，参考下面的官方说明。
-DrugAlpha MCP 官方连接说明
+安装后，请确认当前客户端能调用新版 Skill。等我提供 Obsidian Vault 路径后，在我授权的范围内做一次只读检索，并告诉我实际搜索了哪些目录、命中了哪些文件。若文件名或索引未命中，请继续查已归档的 Markdown 正文、药物清单和已核实别名。
+
+需要匹配标准药名或查询已发布管线时，再检查 DrugAlpha MCP 连接。连接方法见官方说明。
 https://github.com/max-nobug/drugalpha-mcp
 ~~~
 
