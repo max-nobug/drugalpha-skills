@@ -182,7 +182,7 @@ HORIZONTAL = '<!-- landscape -->'
 ROW_SPLIT = re.compile(r'(?<!\\)\|')
 SEPARATOR = re.compile(r':?-{3,}:?')
 HEADING = re.compile(r'^(#{1,3})\s+(.+)$')
-MAJOR_HEADING = re.compile(r'^0([1-6])(?:\s|[｜|])')
+MAJOR_HEADING = re.compile(r'^0([1-7])(?:\s|[｜|])')
 
 def table_rows(lines):
     cells = [[part.strip().replace(r'\|', '|') for part in ROW_SPLIT.split(line.strip().strip('|'))] for line in lines]
@@ -332,11 +332,11 @@ TECHNICAL_SECTIONS = ('01｜核心判断', '02｜趋势与价格结构', '03｜�
 INTEGRATED_SECTIONS = {
     'integrated-single': (
         '01｜核心判断', '02｜未来核心催化剂', '03｜核心资产与竞争地位',
-        '04｜销售峰值与关键假设', '05｜独立估值与市场隐含预期', '06｜风险提示',
+        '04｜销售峰值与关键假设', '05｜独立估值与市场隐含预期', '06｜技术面分析与参与建议', '07｜风险提示',
     ),
     'integrated-multi': (
         '01｜筛选结论', '02｜核心催化剂横向对比', '03｜排序依据与主要约束',
-        '04｜估值与市场预期', '05｜后续研究清单', '06｜风险提示',
+        '04｜估值与市场预期', '05｜技术面分析与参与建议', '06｜后续研究清单', '07｜风险提示',
     ),
 }
 

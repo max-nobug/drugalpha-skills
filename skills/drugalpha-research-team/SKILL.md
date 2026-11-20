@@ -115,6 +115,10 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 公司财务研究按[五节财务分析报告模板](references/financial-report-template.md)交付同版 Markdown 与 Word。完整财务与估值研究交付两组 Markdown 与 Word 和一份可复算 DCF Excel。两种报告均按[统一 Word 版式与交付流程](references/report-delivery.md)从 Markdown 生成。
 
+## 综合决策中的技术面
+
+单公司投资研判第 06 节、多公司投资研判第 05 节单列技术面分析与参与建议，调用技术面研究员并按各自七节模板交付。首页分别给基本面投资判断／优先研究顺序和当前参与建议。多公司六项基本面评分、权重及公式沿用原配置，技术行动和触发条件另列；技术数据缺失不记低分。
+
 ## 技术面分析
 
 按[技术面流程](references/technical-workflow.md)读取 DrugAlpha 实际技术结果，核对完整结构结论，按[五节模板](references/technical-report-template.md)交付 MD 与 Word。首页直接给出研究员的动作建议、触发条件和理由。
