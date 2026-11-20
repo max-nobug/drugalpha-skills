@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.69。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.70。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
@@ -40,16 +40,16 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.70/drugalpha-research-team-v0.2.70-public.zip)，按客户端说明安装。
 
 ~~~text
-请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.69。
+请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.70。
 
 先阅读下方目录里的 README.md，再按当前客户端支持的方式安装整个 Skill 目录，保留目录结构。
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 如果需要我手动导入，请告诉我当前客户端的菜单路径（若适用）和具体步骤，并使用这个正式版 ZIP。
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.70/drugalpha-research-team-v0.2.70-public.zip
 
 安装后，请确认当前客户端能调用新版 Skill，并实际只读查询一次恒瑞医药的公司身份，验证 DrugAlpha MCP 连接。若尚未连接，请按官方说明协助配置，由我完成账号授权。
 https://github.com/max-nobug/drugalpha-mcp
@@ -116,6 +116,58 @@ WorkBuddy 可从「专家·技能·连接器 → 连接器 → 自定义连接�
 | 综合决策 · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 模板](assets/multi-company-scoring-template.xlsx) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) |
 
 综合决策包含以上两种用法。单公司研判附可复算 DCF Excel。多公司研判附可复算评分 Excel，并链接实际采用的 DCF 工作簿。
+
+## 可直接复制的问题示例
+
+下面的问题可以直接发给AI，可替换公司、药物、适应症、地区和时间窗口。无需指定接口或查询方法，AI按问题选择对应流程并执行连接检查。示例是提问方式，不预设药物优效、获批状态、授权兑现、估值空间或买卖结论。完整研究默认交付Markdown和Word，涉及测算时附相应可复算Excel；也可以明确只要聊天答复。
+
+### 临床数据对比
+
+> 比较塞普替尼和普拉替尼用于RET融合阳性晚期非小细胞肺癌一线治疗的临床数据，分别说明试验人群、PFS、OS和安全性差异，哪些结果可以比较？
+
+### 竞争格局分析
+
+> 梳理TROP2 ADC的竞争格局，围绕SKB264比较主要竞品的临床表现和研发进展，按同适应症、治疗线和患者亚组分析，它的差异化在哪里？
+
+### 销售峰值测算
+
+> 测算SKB264在中国和海外的销售峰值，列出患者数、渗透率、份额、价格和疗程假设，说明取证依据，并提供逐年销售、敏感性分析与可复算Excel。
+
+### 催化剂判断
+
+> 梳理信达生物未来12个月的关键催化剂，按重要性排序，说明哪些结果可能改变公司价值判断，以及后续需要跟踪什么。
+
+### 财务与估值分析
+
+> 分析康方生物的现金能否支撑到关键临床节点，评估融资与稀释压力，独立测算DCF估值，并对照DrugAlpha平台参考值和同日市值解释差异。
+
+### 技术面分析
+
+> 分析恒瑞医药600276.SH当前的技术结构，区分已确认与待确认信号，分别给出空仓和已有持仓的当前建议、理由、确认条件和失效条件。
+
+### 单公司投资研判
+
+> 综合研究首药控股，给出核心判断、独立估值及适用情景、关键催化剂和最强反证，说明临床与竞争结论如何影响销售和估值假设，并单列技术面参与建议。
+
+### 多公司投资研判
+
+> 比较映恩生物、贝达药业、劲方医药和众生药业，按既定六项指标逐项评分，给出每项理由、加权总分和优先深研顺序，并列独立DCF、DrugAlpha平台参考值及技术面参与建议。
+
+### BD尽调
+
+> 从BD尽调角度评估IBI363的临床差异化、竞争位置和中国及海外销售空间，区分已披露权益和假设，列出支持判断的证据以及还需要补充的资料。
+
+### 医学事务竞品分析
+
+> 从医学事务角度比较塞普替尼和普拉替尼在RET融合阳性晚期非小细胞肺癌中的证据，按治疗线和患者亚组说明疗效、安全性、获批标签与指南位置，列出可比性限制。
+
+### 医保谈判证据准备
+
+> 为SKB264的医保谈判准备证据框架，按拟谈判适应症核对现行标准治疗、增量临床价值、患者规模、治疗费用和预算影响所需输入，明确已取得证据和待补资料。
+
+### 结合Obsidian等本地资料
+
+> 请只读取我授权的Obsidian知识库中“公司研究／首药控股”目录，结合DrugAlpha和公开一手资料核对其中的临床、催化剂和估值假设；对冲突标明来源，并形成单公司投资研判。
 
 ## 文件怎么读
 

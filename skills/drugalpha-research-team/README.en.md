@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.69. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.70. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -30,16 +30,16 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.70/drugalpha-research-team-v0.2.70-public.zip) and install it using your client’s instructions.
 
 ~~~text
-Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.69 in my current AI client.
+Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.70 in my current AI client.
 
 Read README.en.md in the directory below, then install the complete Skill directory using the method supported by my client. Keep the directory structure intact.
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 If I need to import the ZIP manually, tell me where to go in my client and which steps to follow. Use this release ZIP.
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.70/drugalpha-research-team-v0.2.70-public.zip
 
 After installation, confirm that my client can invoke the updated Skill. Run a live, read-only DrugAlpha query to verify the identity of Hengrui Pharma and confirm the MCP connection. If setup is needed, follow the official guide and let me complete account authorization.
 https://github.com/max-nobug/drugalpha-mcp
@@ -83,3 +83,55 @@ Upload relevant files or authorize access to selected folders or notes in an Obs
 | Multi-company investment review | Compare several companies, explain the scores, and rank them for further research. | [Report template](references/integrated-multi-report-template.md) · [Scoring Excel template](assets/multi-company-scoring-template.xlsx) · [Scoring workbook guide](references/integrated-multi-report-template.md#03排序依据与主要约束) |
 
 Full research defaults to Markdown and Word. Peak sales, formal DCF and multi-company scoring also include a recalculable Excel workbook where applicable. Reports default to the language of your question. The internal manuals are in Chinese. The bundled Word formatter supports English clinical reports. For other English reports, check the client's document tooling and any workbook labels inherited from Chinese templates.
+
+## Copy-ready research questions
+
+Copy any question below and replace the company, drug, indication, region or time window. You do not need to specify an API or query method: the assistant selects the relevant workflow and checks the connection. These prompts do not presuppose superiority, approval, licensing, valuation upside or a trading conclusion. Full research defaults to Markdown and Word, plus the applicable recalculable Excel workbook; you may explicitly request a chat-only answer.
+
+### Clinical data comparison
+
+> Compare selpercatinib and pralsetinib for first-line RET fusion-positive advanced NSCLC. Explain the trial populations, PFS, OS and safety results, and which comparisons are valid.
+
+### Competitive landscape
+
+> Map the TROP2 ADC competitive landscape, focusing on SKB264. Compare clinical evidence and development progress within the same indications, treatment lines and patient subgroups. Where could it differentiate?
+
+### Peak sales
+
+> Estimate peak sales of SKB264 in China and overseas. Show the evidence and assumptions for patient counts, uptake, market share, price and treatment duration, with annual sales, sensitivity analysis and a recalculable Excel workbook.
+
+### Catalyst assessment
+
+> Assess Innovent Biologics’ key catalysts over the next 12 months. Rank them by importance, explain which outcomes could change the valuation thesis, and identify what to monitor.
+
+### Financial analysis and valuation
+
+> Assess whether Akeso’s cash can fund its key clinical milestones and evaluate financing and dilution risks. Build an independent DCF and explain differences versus the DrugAlpha platform reference value and same-date market capitalization.
+
+### Technical analysis
+
+> Analyze the current technical structure of Hengrui Pharma (600276.SH). Distinguish confirmed and pending signals, and give separate action recommendations for investors with and without a position, including the evidence, confirmation conditions and invalidation triggers.
+
+### Single-company investment review
+
+> Conduct an integrated investment review of Shouyao Holdings (688197.SH). Present the thesis, independent valuation and applicable scenario, key catalysts and strongest counterevidence. Explain how clinical and competitive findings affect sales and valuation assumptions, with a separate technical participation assessment.
+
+### Multi-company investment review
+
+> Compare Duality Biologics, Betta Pharmaceuticals, GenFleet Therapeutics and Zhongsheng Pharmaceutical using the six established fundamental factors. Explain every score, weighted totals and research priorities. Present independent DCF values, DrugAlpha platform reference values and separate technical action recommendations.
+
+### BD due diligence
+
+> Assess IBI363 for BD due diligence: clinical differentiation, competitive position, and sales potential in China and overseas. Distinguish disclosed rights from assumptions, summarize supporting evidence, and identify missing diligence materials.
+
+### Medical affairs competitive analysis
+
+> Compare the evidence for selpercatinib and pralsetinib in RET fusion-positive advanced NSCLC for a medical affairs review. Separate treatment lines and subgroups, efficacy, safety, approved labels and guideline positions, and explain comparability limits.
+
+### Reimbursement evidence preparation
+
+> Prepare a reimbursement evidence framework for SKB264 by proposed indication: standard of care, incremental clinical value, patient population, treatment costs and inputs needed for budget-impact analysis. Separate available evidence from missing materials.
+
+### Research with local notes
+
+> Read only the authorized “Company Research / Shouyao Holdings” folder in my Obsidian vault. Cross-check its clinical, catalyst and valuation assumptions against DrugAlpha and public primary sources, identify conflicts with citations, and produce a single-company investment review.

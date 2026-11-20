@@ -18,6 +18,8 @@ description: 创新药研究入口，服务投资研究、BD决策、医学事�
 | 首席研究员（综合决策） · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-single-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) | [数据](references/data-access.md) | 关键催化剂、核心资产、独立估值及市场隐含预期，末节为风险提示。正式研判附可复算 DCF Excel |
 | 首席研究员（综合决策） · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [流程](references/integrated-workflow.md) | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 模板](assets/multi-company-scoring-template.xlsx) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) | [数据](references/data-access.md) | 横向比较关键催化剂与估值，逐项评分并排序，末节为风险提示。附可复算评分 Excel，并链接实际采用的 DCF 工作簿 |
 
+更多可直接复制的问题见[中文问题示例](README.md#可直接复制的问题示例)和[English research questions](README.en.md#copy-ready-research-questions)，覆盖专项研究、两种综合研判、BD、医学事务、医保谈判及授权本地资料。示例只帮助理解意图，不预设结论，也不强制用户采用固定问法。
+
 ## Language and English prompts
 
 Use the language of the user's research question by default. Follow any explicit output-language request. The same language applies to the chat response and deliverables, including headings, table labels, captions and source descriptions. Preserve original drug names, trial identifiers, numerical values and source URLs. The Chinese manuals define the workflow and report structure for both languages.
@@ -27,6 +29,7 @@ Use the language of the user's research question by default. Follow any explicit
 - Peak sales: Estimate this drug's peak sales in China and overseas.
 - Catalysts: Which readouts or regulatory milestones could change the thesis over the next six months?
 - Financial analysis and valuation: Can the company fund its next readout, and what does the current valuation imply?
+- Technical analysis: Analyze Hengrui Pharma (600276.SH). Give current recommendations for investors with and without a position, with confirmation and invalidation conditions.
 - Single-company research: Assess this company's catalysts, assets and implied market expectations.
 - Multi-company research: Compare these four biotechs and rank them for further research.
 
