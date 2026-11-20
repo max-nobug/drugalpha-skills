@@ -76,6 +76,8 @@ Test English drug and disease terms against DrugAlpha first. If English conditio
 
 七种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。使用各自的报告模板，按[统一交付流程](references/report-delivery.md)生成、核对成稿并在回复中给出文件链接。销售峰值附可复算 Excel，正式公司估值和正式单公司投资研判附可复算 DCF Excel，多公司投资研判附可复算评分 Excel。单点查数或报告追问按问题范围回复。用户指定仅聊天或某种格式时，按其指定交付。首席研究员（综合决策）调用专项研究员时，按总报告整合，专项报告可按用户要求单独交付。
 
+综合决策使用已确认的[单公司七节模板](references/integrated-single-report-template.md)和[多公司七节模板](references/integrated-multi-report-template.md)，固定主要表头与内容形式。技术分析分别在单公司第06节、多公司第05节，末节为风险提示；新增该模块不替换既有表格、不改变六项基本面评分。正式正文直接呈现当前判断和测算，不叙述修改过程；出稿前按[综合报告模板验收](references/report-delivery.md#版式与交付验收)核对。
+
 ### 正式交付前检查
 
 生成前按[正式文件命名表](references/report-delivery.md#正式文件命名)确定完整文件名。生成后、回复前，对照本次实际生成的文件逐项核对，发现问题先修正并复查。

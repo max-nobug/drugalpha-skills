@@ -2,7 +2,7 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.68。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.69。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
@@ -22,6 +22,8 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 完整研究默认交付同版 Markdown 和 Word。销售峰值、正式 DCF 估值和多公司评分附可复算 Excel。报告默认使用提问语言，也可指定中文或英文。
 
+单公司与多公司投资研判分别使用固定的七节报告模板，保留表格和内容形式。技术面单独成节；多公司六项基本面评分及权重保持独立。两种报告均交付MD、Word和相应可复算Excel。
+
 ## 1. 安装 Skill
 
 解压单项 ZIP 后找到名为 **drugalpha-research-team** 的文件夹，其根部应直接包含 SKILL.md。保留整个文件夹及内部结构。本包内置七种模式，安装一次即可。
@@ -38,16 +40,16 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.68/drugalpha-research-team-v0.2.68-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip)，按客户端说明安装。
 
 ~~~text
-请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.68。
+请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.69。
 
 先阅读下方目录里的 README.md，再按当前客户端支持的方式安装整个 Skill 目录，保留目录结构。
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 如果需要我手动导入，请告诉我当前客户端的菜单路径（若适用）和具体步骤，并使用这个正式版 ZIP。
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.68/drugalpha-research-team-v0.2.68-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip
 
 安装后，请确认当前客户端能调用新版 Skill，并实际只读查询一次恒瑞医药的公司身份，验证 DrugAlpha MCP 连接。若尚未连接，请按官方说明协助配置，由我完成账号授权。
 https://github.com/max-nobug/drugalpha-mcp

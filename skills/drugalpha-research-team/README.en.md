@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.68. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.69. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -22,22 +22,24 @@ You can use any specialist independently or ask the Chief Research Analyst (Inte
 
 Full research includes matching Markdown and Word reports by default. Peak sales, formal DCF valuations, and multi-company scoring include a recalculable Excel workbook. Reports default to the language of your question, with Chinese or English available on request.
 
+Single-company and multi-company reviews use their fixed seven-section templates and table layouts. Technical analysis has its own section; the six fundamental scoring factors and weights remain independent. Both reviews include Markdown, Word and the applicable recalculable Excel workbooks.
+
 ## Install
 
 Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md) at its root. Import the package through your client's Skills settings or place the directory in its documented Skill location. If your client only supports file access, place the directory in its workspace and ask it to read SKILL.md.
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.68/drugalpha-research-team-v0.2.68-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip) and install it using your client’s instructions.
 
 ~~~text
-Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.68 in my current AI client.
+Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.69 in my current AI client.
 
 Read README.en.md in the directory below, then install the complete Skill directory using the method supported by my client. Keep the directory structure intact.
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 If I need to import the ZIP manually, tell me where to go in my client and which steps to follow. Use this release ZIP.
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.68/drugalpha-research-team-v0.2.68-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.69/drugalpha-research-team-v0.2.69-public.zip
 
 After installation, confirm that my client can invoke the updated Skill. Run a live, read-only DrugAlpha query to verify the identity of Hengrui Pharma and confirm the MCP connection. If setup is needed, follow the official guide and let me complete account authorization.
 https://github.com/max-nobug/drugalpha-mcp
