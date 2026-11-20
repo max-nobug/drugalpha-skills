@@ -2,13 +2,13 @@
 
 [English](README.en.md) · 简体中文
 
-正式版 v0.2.66。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
+正式版 v0.2.67。用户先读本页，Agent 从 [SKILL.md](SKILL.md) 开始执行。
 
 ## 专家团能做什么
 
 DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽调、医学事务竞品分析和医保谈判证据准备。专家团优先通过 DrugAlpha MCP 获取临床、管线、竞争格局和催化剂数据，并结合你授权的 Obsidian 等本地资料和公开一手资料，判断药物的差异化、可能改变投资判断的事件，以及当前估值隐含的预期。
 
-你可以单独调用任一位专项研究员，也可以请首席研究员（综合决策）协调五位研究员，完成单公司或多公司投资研判。
+你可以单独调用任一位专项研究员，也可以请首席研究员（综合决策）协调六位研究员，完成单公司或多公司投资研判。
 
 | 专家分工 | 负责什么 |
 |---|---|
@@ -17,13 +17,14 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 | **销售峰值测算研究员** | 分中国和海外测算患者数、渗透率、份额、价格和疗程，给出逐年销售和峰值，并提供可复算 Excel。 |
 | **催化剂判断研究员** | 跟踪核心产品的海外授权、申报与获批、临床读出、销售放量和分成兑现，按重要性排序，说明什么结果会改变投资判断。 |
 | **财务与估值分析研究员** | 判断现金能否撑到关键节点，评估融资与稀释压力，独立测算估值，并列出 DrugAlpha 平台参考值与当前市值隐含的预期。 |
+| **技术面分析研究员** | 综合价格结构、形态及确认条件，给出观望、买入、持有观察、减仓或退出建议，写明理由和触发条件。 |
 | **首席研究员（综合决策）** | 拆解问题，协调专项研究，核对关键证据并处理分歧，把临床、竞争和催化剂的发现落实到销售与估值假设。**单公司投资研判**给出核心判断、关键催化剂和最强反证。**多公司投资研判**逐项评分，给出优先深研顺序和理由。 |
 
 完整研究默认交付同版 Markdown 和 Word。销售峰值、正式 DCF 估值和多公司评分附可复算 Excel。报告默认使用提问语言，也可指定中文或英文。
 
 ## 1. 安装 Skill
 
-解压单项 ZIP 后找到名为 **drugalpha-research-team** 的文件夹，其根部应直接包含 SKILL.md。保留整个文件夹及内部结构。本包内置六种模式，安装一次即可。
+解压单项 ZIP 后找到名为 **drugalpha-research-team** 的文件夹，其根部应直接包含 SKILL.md。保留整个文件夹及内部结构。本包内置七种模式，安装一次即可。
 
 | 你的 Agent 支持什么 | 怎样使用 |
 |---|---|
@@ -37,16 +38,16 @@ DrugAlpha 创新药投研专家团面向创新药投资研究，也支持 BD 尽
 
 ### 复制给 AI 安装
 
-把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip)，按客户端说明安装。
+把下面的提示词发给你的 AI。也可以[下载 Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.67/drugalpha-research-team-v0.2.67-public.zip)，按客户端说明安装。
 
 ~~~text
-请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.66。
+请在我当前使用的 AI 客户端安装或更新 DrugAlpha 创新药投研专家团 Skill 至 v0.2.67。
 
 先阅读下方目录里的 README.md，再按当前客户端支持的方式安装整个 Skill 目录，保留目录结构。
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 如果需要我手动导入，请告诉我当前客户端的菜单路径（若适用）和具体步骤，并使用这个正式版 ZIP。
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.67/drugalpha-research-team-v0.2.67-public.zip
 
 安装后，请确认当前客户端能调用新版 Skill，并实际只读查询一次恒瑞医药的公司身份，验证 DrugAlpha MCP 连接。若尚未连接，请按官方说明协助配置，由我完成账号授权。
 https://github.com/max-nobug/drugalpha-mcp
@@ -97,9 +98,9 @@ WorkBuddy 可从「专家·技能·连接器 → 连接器 → 自定义连接�
 
 > 使用 DrugAlpha创新药投研专家团。综合研究首药控股，把临床与竞争判断传导到销售、估值和融资假设，指出最能改变观点的事件。 请只读取我授权的 Obsidian 知识库里「公司研究／首药控股」目录，结合 DrugAlpha 数据和公开一手资料进行核对。
 
-## 六种模式怎样使用
+## 七种模式怎样使用
 
-直接用自然语言提问即可。Agent 根据交付目标自动选择模式，也支持点名使用。六种模式涉及 DrugAlpha 覆盖的数据时，先调用本题对应的 DrugAlpha MCP，或复用本次研究已取得的同口径有效返回。公司财务和行情使用已授权的金融 MCP 或官方披露。六种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。涉及销售峰值、正式公司 DCF 估值或多公司评分时，附相应可复算 Excel。
+直接用自然语言提问即可。Agent 根据交付目标自动选择模式，也支持点名使用。七种模式涉及 DrugAlpha 覆盖的数据时，先调用本题对应的 DrugAlpha MCP，或复用本次研究已取得的同口径有效返回。公司财务和行情使用已授权的金融 MCP 或官方披露。七种模式以完整研究为主要任务时，默认交付同版 Markdown 与 Word。涉及销售峰值、正式公司 DCF 估值或多公司评分时，附相应可复算 Excel。
 
 | 模式 | 可以这样问 | 模板 |
 | --- | --- | --- |
@@ -108,6 +109,7 @@ WorkBuddy 可从「专家·技能·连接器 → 连接器 → 自定义连接�
 | 销售峰值测算 | 这款药在中国一线治疗能卖多少钱？ | [报告模板](references/peak-report-template.md) · [Excel 模板](assets/peak-sales-template.xlsx) |
 | 催化剂判断 | 未来半年哪些读出可能改变观点？ | [报告模板](references/catalyst-report-template.md) |
 | 财务与估值分析 | 现金能撑到下一次读出吗？现在估值隐含多少销售？ | [财务分析模板](references/financial-report-template.md) · [估值分析模板](references/valuation-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) |
+| 技术面分析 | 现在该观望、买入还是减仓？ | [报告模板](references/technical-report-template.md) |
 | 综合决策 · 单公司投资研判 | 综合研究首药控股，给出投资判断、关键催化剂和最强反证。 | [报告模板](references/integrated-single-report-template.md) · [DCF Excel 模板](assets/dcf-valuation-template.xlsx) |
 | 综合决策 · 多公司投资研判 | 比较映恩生物、贝达药业、劲方医药和众生药业，给出优先研究顺序和打分理由。 | [报告模板](references/integrated-multi-report-template.md) · [评分 Excel 模板](assets/multi-company-scoring-template.xlsx) · [评分 Excel 编制说明](references/integrated-multi-report-template.md#03排序依据与主要约束) |
 

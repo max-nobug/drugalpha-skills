@@ -327,6 +327,8 @@ CATALYST_SECTIONS = (
     '05｜风险与待验证事项',
 )
 
+TECHNICAL_SECTIONS = ('01｜核心判断', '02｜趋势与价格结构', '03｜关键价位与验证条件', '04｜情景判断与后续观察', '05｜风险与适用边界')
+
 INTEGRATED_SECTIONS = {
     'integrated-single': (
         '01｜核心判断', '02｜未来核心催化剂', '03｜核心资产与竞争地位',
@@ -379,6 +381,8 @@ def render(source_path, out_path, kind, language="zh"):
         raise ValueError('销售峰值报告须使用模板的五节标题。')
     if kind == 'catalyst' and tuple(value.strip() for typ, value, _ in report_blocks if typ == 'h2') != CATALYST_SECTIONS:
         raise ValueError('催化剂报告须使用模板的五节标题。')
+    if kind == 'technical' and tuple(v.strip() for typ, v, _ in report_blocks if typ == 'h2') != TECHNICAL_SECTIONS:
+        raise ValueError('技术面报告须使用五节模板。')
     if kind == 'clinical':
         sections = tuple(value.strip() for typ, value, _ in report_blocks if typ == 'h2')
         expected_sections = CLINICAL_SECTIONS_EN if language == 'en' else CLINICAL_SECTIONS
@@ -497,7 +501,7 @@ def validate_valuation_delivery(markdown_path, scope_path):
 def main():
     parser = argparse.ArgumentParser(description='将临床、竞争格局、销售峰值、催化剂、财务、估值或综合决策 Markdown 排版为 Word。')
     parser.add_argument('markdown', type=Path)
-    parser.add_argument('--kind', required=True, choices=('financial', 'valuation', 'clinical', 'competition', 'peak', 'catalyst', *INTEGRATED_SECTIONS))
+    parser.add_argument('--kind', required=True, choices=('financial', 'valuation', 'clinical', 'competition', 'peak', 'catalyst', 'technical', *INTEGRATED_SECTIONS))
     parser.add_argument('--output', type=Path)
     parser.add_argument('--language', choices=('zh', 'en'), default='zh',
                         help='Report language. English formatting is available for clinical reports.')
@@ -524,7 +528,7 @@ def main():
     if out is None:
         report_blocks = list(blocks(args.markdown.read_text(encoding='utf-8-sig')))
         title = next((value for kind, value, _ in report_blocks if kind == 'h1'), '')
-        subject = re.sub(r'\s*(?:财务分析|估值(?:分析)?|临床数据分析|竞争格局分析|销售峰值测算|催化剂判断|单公司投资研判|多公司投资研判)(?:报告)?\s*$', '', report_title(title))
+        subject = re.sub(r'\s*(?:财务分析|估值(?:分析)?|临床数据分析|竞争格局分析|销售峰值测算|催化剂判断|技术面分析|单公司投资研判|多公司投资研判)(?:报告)?\s*$', '', report_title(title))
         subject = re.sub(r'[<>:"/\\|?*]', '', subject).strip()
         if not subject:
             parser.error('报告首行标题须包含公司名称或临床对比主题。')
@@ -539,7 +543,7 @@ def main():
                 report_date = date(*map(int, match.groups()))
             except ValueError as exc:
                 parser.error(str(exc))
-        labels = {'financial': '财务分析', 'valuation': '估值分析', 'clinical': '临床数据分析', 'competition': '竞争格局分析', 'peak': '销售峰值测算', 'catalyst': '催化剂判断', 'integrated-single': '单公司投资研判', 'integrated-multi': '多公司投资研判'}
+        labels = {'financial': '财务分析', 'valuation': '估值分析', 'clinical': '临床数据分析', 'competition': '竞争格局分析', 'peak': '销售峰值测算', 'catalyst': '催化剂判断', 'technical': '技术面分析', 'integrated-single': '单公司投资研判', 'integrated-multi': '多公司投资研判'}
         if args.language == 'en':
             out = args.markdown.with_suffix('.docx')
         else:

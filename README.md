@@ -15,6 +15,7 @@ You can use any specialist independently or ask the Chief Research Analyst (Inte
 | **Peak Sales Analyst** | Estimates patient counts, uptake, share, price, and treatment duration for China and overseas markets. Delivers annual sales and peak sales with a recalculable Excel model. |
 | **Catalyst Analyst** | Tracks out-licensing, regulatory filings and approvals, clinical readouts, sales uptake, and royalty receipts for core assets. Prioritizes events and specifies what outcomes would change the investment thesis. |
 | **Financial and Valuation Analyst** | Assesses cash runway, financing needs, and dilution risk. Builds an independent valuation, presents the DrugAlpha platform reference value, and explains what the market price implies. |
+| **Technical Analysis Analyst** | Explains action recommendations and their technical confirmation and risk conditions. |
 | **Chief Research Analyst (Integrated Research)** | Defines the research questions, coordinates specialists, resolves differences in evidence, and brings clinical, competitive, and catalyst findings into sales and valuation assumptions. A **single-company review** presents the thesis, key catalysts, and strongest counterevidence. A **multi-company review** explains the scores and ranks the companies for further research. |
 
 Full research includes matching Markdown and Word reports by default. Peak sales, formal DCF valuations, and multi-company scoring include a recalculable Excel workbook. Reports default to the language of your question, with Chinese or English available on request.
@@ -22,7 +23,7 @@ Full research includes matching Markdown and Word reports by default. Peak sales
 - [Skill directory](skills/drugalpha-research-team)
 - [English installation guide](skills/drugalpha-research-team/README.en.md)
 - [Chinese installation guide](skills/drugalpha-research-team/README.md)
-- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip)
+- [Download the release ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.67/drugalpha-research-team-v0.2.67-public.zip)
 
 To install with an AI assistant, send it the Skill directory URL and ask it to install the entire directory using your client's supported method. For WorkBuddy or clients that import a ZIP, download the release asset and follow your client's import instructions.
 

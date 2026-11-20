@@ -2,7 +2,7 @@
 
 English · [简体中文](README.md)
 
-Release v0.2.66. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
+Release v0.2.67. Use DrugAlpha, your authorized research notes and public primary sources for investment research, business development, medical affairs and reimbursement evidence.
 
 ## What the team does
 
@@ -17,6 +17,7 @@ You can use any specialist independently or ask the Chief Research Analyst (Inte
 | **Peak Sales Analyst** | Estimates patient counts, uptake, share, price, and treatment duration for China and overseas markets. Delivers annual sales and peak sales with a recalculable Excel model. |
 | **Catalyst Analyst** | Tracks out-licensing, regulatory filings and approvals, clinical readouts, sales uptake, and royalty receipts for core assets. Prioritizes events and specifies what outcomes would change the investment thesis. |
 | **Financial and Valuation Analyst** | Assesses cash runway, financing needs, and dilution risk. Builds an independent valuation, presents the DrugAlpha platform reference value, and explains what the market price implies. |
+| **Technical Analysis Analyst** | Combines price structure and confirmed signals to give action recommendations, supporting evidence, and trigger conditions. |
 | **Chief Research Analyst (Integrated Research)** | Defines the research questions, coordinates specialists, resolves differences in evidence, and brings clinical, competitive, and catalyst findings into sales and valuation assumptions. A **single-company review** presents the thesis, key catalysts, and strongest counterevidence. A **multi-company review** explains the scores and ranks the companies for further research. |
 
 Full research includes matching Markdown and Word reports by default. Peak sales, formal DCF valuations, and multi-company scoring include a recalculable Excel workbook. Reports default to the language of your question, with Chinese or English available on request.
@@ -27,16 +28,16 @@ Extract the release ZIP and keep the complete directory with [SKILL.md](SKILL.md
 
 ### Copy this prompt to install with AI
 
-Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip) and install it using your client’s instructions.
+Copy the prompt below into your AI assistant. You can also [download the Skill ZIP](https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.67/drugalpha-research-team-v0.2.67-public.zip) and install it using your client’s instructions.
 
 ~~~text
-Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.66 in my current AI client.
+Please install or update the DrugAlpha Biopharma Research Team Skill to v0.2.67 in my current AI client.
 
 Read README.en.md in the directory below, then install the complete Skill directory using the method supported by my client. Keep the directory structure intact.
 https://github.com/max-nobug/drugalpha-skills/tree/main/skills/drugalpha-research-team
 
 If I need to import the ZIP manually, tell me where to go in my client and which steps to follow. Use this release ZIP.
-https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.66/drugalpha-research-team-v0.2.66-public.zip
+https://github.com/max-nobug/drugalpha-skills/releases/download/v0.2.67/drugalpha-research-team-v0.2.67-public.zip
 
 After installation, confirm that my client can invoke the updated Skill. Run a live, read-only DrugAlpha query to verify the identity of Hengrui Pharma and confirm the MCP connection. If setup is needed, follow the official guide and let me complete account authorization.
 https://github.com/max-nobug/drugalpha-mcp
@@ -75,6 +76,7 @@ Upload relevant files or authorize access to selected folders or notes in an Obs
 | Peak sales | Estimate peak sales for this drug in China and overseas. | [Report template](references/peak-report-template.md) · [Excel template](assets/peak-sales-template.xlsx) |
 | Catalysts | Which readouts could change the investment thesis over the next six months? | [Report template](references/catalyst-report-template.md) |
 | Financial analysis and valuation | Can the company fund its next readout, and what does the current valuation imply? | [Financial analysis template](references/financial-report-template.md) · [Valuation template](references/valuation-report-template.md) · [DCF Excel template](assets/dcf-valuation-template.xlsx) |
+| Technical analysis | Should I wait, buy, or reduce, and under what conditions? | [Report template](references/technical-report-template.md) |
 | Single-company investment review | Assess one company, its key catalysts, and the strongest counterevidence. | [Report template](references/integrated-single-report-template.md) · [DCF Excel template](assets/dcf-valuation-template.xlsx) |
 | Multi-company investment review | Compare several companies, explain the scores, and rank them for further research. | [Report template](references/integrated-multi-report-template.md) · [Scoring Excel template](assets/multi-company-scoring-template.xlsx) · [Scoring workbook guide](references/integrated-multi-report-template.md#03排序依据与主要约束) |
 
